@@ -1,0 +1,142 @@
+[
+  {
+    "question_en": "What is 25% of 200?",
+    "question_np": "२०० को २५% कति हुन्छ?",
+    "options_en": ["25", "50", "75", "100"],
+    "options_np": ["२५", "५०", "७५", "१००"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "If the ratio of boys to girls is 3:2 and there are 15 boys, how many girls are there?",
+    "question_np": "यदि केटा र केटीको अनुपात ३:२ छ र १५ केटा छन् भने, कति केटी छन्?",
+    "options_en": ["8", "10", "12", "15"],
+    "options_np": ["८", "१०", "१२", "१५"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the value of 15 + 8 × 2?",
+    "question_np": "१५ + ८ × २ को मान कति हुन्छ?",
+    "options_en": ["31", "46", "38", "23"],
+    "options_np": ["३१", "४६", "३८", "२३"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "A shopkeeper bought an item for Rs. 500 and sold it for Rs. 600. What is the profit percentage?",
+    "question_np": "एक पसलेले रु. ५०० मा सामान किने र रु. ६०० मा बेचे। नाफा प्रतिशत कति हो?",
+    "options_en": ["10%", "15%", "20%", "25%"],
+    "options_np": ["१०%", "१५%", "२०%", "२५%"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the next number in the series: 2, 4, 8, 16, ?",
+    "question_np": "श्रृंखलामा अर्को संख्या के हो: २, ४, ८, १६, ?",
+    "options_en": ["20", "24", "28", "32"],
+    "options_np": ["२०", "२४", "२८", "३२"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "If 5x = 25, what is the value of x?",
+    "question_np": "यदि ५x = २५ भए, x को मान कति हो?",
+    "options_en": ["3", "4", "5", "6"],
+    "options_np": ["३", "४", "५", "६"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the average of 10, 20, 30, 40, and 50?",
+    "question_np": "१०, २०, ३०, ४०, र ५० को औसत कति हो?",
+    "options_en": ["25", "30", "35", "40"],
+    "options_np": ["२५", "३०", "३५", "४०"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "A train travels 120 km in 2 hours. What is its speed?",
+    "question_np": "एउटा रेल २ घण्टामा १२० किमी यात्रा गर्छ। यसको गति कति हो?",
+    "options_en": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
+    "options_np": ["५० किमी/घण्टा", "६० किमी/घण्टा", "७० किमी/घण्टा", "८० किमी/घण्टा"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is 15% of 300?",
+    "question_np": "३०० को १५% कति हुन्छ?",
+    "options_en": ["30", "35", "40", "45"],
+    "options_np": ["३०", "३५", "४०", "४५"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "If A is twice as old as B, and B is 10 years old, how old is A?",
+    "question_np": "यदि A, B भन्दा दोब्बर उमेरको छ, र B १० वर्षको छ भने, A को उमेर कति हो?",
+    "options_en": ["15", "20", "25", "30"],
+    "options_np": ["१५", "२०", "२५", "३०"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "The sum of two numbers is 50 and their difference is 10. What is the larger number?",
+    "question_np": "दुई संख्याको योगफल ५० र फरक १० छ। ठूलो संख्या कति हो?",
+    "options_en": ["25", "30", "35", "40"],
+    "options_np": ["२५", "३०", "३५", "४०"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the square root of 144?",
+    "question_np": "१४४ को वर्गमूल कति हो?",
+    "options_en": ["10", "11", "12", "13"],
+    "options_np": ["१०", "११", "१२", "१३"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "If a book costs Rs. 250 after a 20% discount, what was its original price?",
+    "question_np": "यदि एउटा किताबको मूल्य २०% छुट पछि रु. २५० छ भने, यसको मूल मूल्य कति थियो?",
+    "options_en": ["Rs. 300", "Rs. 312.50", "Rs. 325", "Rs. 350"],
+    "options_np": ["रु. ३००", "रु. ३१२.५०", "रु. ३२५", "रु. ३५०"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is 3/4 expressed as a percentage?",
+    "question_np": "३/४ लाई प्रतिशतमा व्यक्त गर्दा कति हुन्छ?",
+    "options_en": ["65%", "70%", "75%", "80%"],
+    "options_np": ["६५%", "७०%", "७५%", "८०%"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "A rectangle has length 12 cm and width 8 cm. What is its area?",
+    "question_np": "एउटा आयतको लम्बाइ १२ सेमी र चौडाइ ८ सेमी छ। यसको क्षेत्रफल कति हो?",
+    "options_en": ["80 sq cm", "88 sq cm", "96 sq cm", "100 sq cm"],
+    "options_np": ["८० वर्ग सेमी", "८८ वर्ग सेमी", "९६ वर्ग सेमी", "१०० वर्ग सेमी"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "If 3x + 5 = 20, what is the value of x?",
+    "question_np": "यदि ३x + ५ = २० भए, x को मान कति हो?",
+    "options_en": ["3", "4", "5", "6"],
+    "options_np": ["३", "४", "५", "६"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the LCM of 12 and 18?",
+    "question_np": "१२ र १८ को ल.स. कति हो?",
+    "options_en": ["24", "36", "48", "72"],
+    "options_np": ["२४", "३६", "४८", "७२"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "A man invests Rs. 10,000 at 5% simple interest per annum. What will be the interest after 2 years?",
+    "question_np": "एक व्यक्तिले रु. १०,००० लाई ५% साधारण ब्याजमा लगानी गर्छ। २ वर्ष पछि ब्याज कति हुन्छ?",
+    "options_en": ["Rs. 500", "Rs. 1000", "Rs. 1500", "Rs. 2000"],
+    "options_np": ["रु. ५००", "रु. १०००", "रु. १५००", "रु. २०००"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the HCF of 24 and 36?",
+    "question_np": "२४ र ३६ को म.स. कति हो?",
+    "options_en": ["6", "8", "12", "18"],
+    "options_np": ["६", "८", "१२", "१८"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "If the perimeter of a square is 40 cm, what is the length of one side?",
+    "question_np": "यदि एउटा वर्गको परिमिति ४० सेमी छ भने, एक भुजाको लम्बाइ कति हो?",
+    "options_en": ["8 cm", "10 cm", "12 cm", "15 cm"],
+    "options_np": ["८ सेमी", "१० सेमी", "१२ सेमी", "१५ सेमी"],
+    "correct_answer": 1
+  }
+]

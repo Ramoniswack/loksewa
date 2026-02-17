@@ -1,0 +1,142 @@
+[
+  {
+    "question_en": "Which of the following is correct? 'The jury ___ reached a verdict.'",
+    "question_np": "कुन सही छ? 'The jury ___ reached a verdict.'",
+    "options_en": ["has", "have", "are", "were"],
+    "options_np": ["has", "have", "are", "were"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Choose the correct sentence in the Subjunctive mood:",
+    "question_np": "Subjunctive mood मा सही वाक्य छान्नुहोस्:",
+    "options_en": ["I wish I was a king", "I wish I am a king", "I wish I were a king", "I wish I will be a king"],
+    "options_np": ["I wish I was a king", "I wish I am a king", "I wish I were a king", "I wish I will be a king"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Fill in the blank: 'If I ___ you, I would accept the offer.'",
+    "question_np": "खाली ठाउँ भर्नुहोस्: 'If I ___ you, I would accept the offer.'",
+    "options_en": ["am", "was", "were", "had been"],
+    "options_np": ["am", "was", "were", "had been"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the plural form of the word 'Criterion'?",
+    "question_np": "'Criterion' शब्दको बहुवचन रूप के हो?",
+    "options_en": ["Criterions", "Criteria", "Criterias", "Criteries"],
+    "options_np": ["Criterions", "Criteria", "Criterias", "Criteries"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Choose the correct preposition: 'He died ___ cancer.'",
+    "question_np": "सही प्रीपोजिसन छान्नुहोस्: 'He died ___ cancer.'",
+    "options_en": ["from", "of", "with", "by"],
+    "options_np": ["from", "of", "with", "by"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Identify the part of speech for 'fast' in: 'He ran fast.'",
+    "question_np": "'He ran fast' मा 'fast' कुन पद (part of speech) हो?",
+    "options_en": ["Adjective", "Noun", "Adverb", "Verb"],
+    "options_np": ["विशेषण", "संज्ञा", "क्रियाविशेषण", "क्रिया"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Select the correct option: 'Neither of the two candidates ___ fit.'",
+    "question_np": "सही विकल्प छान्नुहोस्: 'Neither of the two candidates ___ fit.'",
+    "options_en": ["is", "are", "were", "have"],
+    "options_np": ["is", "are", "were", "have"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Complete the sentence: 'Hardly had I reached the station ___ the train left.'",
+    "question_np": "वाक्य पूरा गर्नुहोस्: 'Hardly had I reached the station ___ the train left.'",
+    "options_en": ["than", "then", "when", "that"],
+    "options_np": ["than", "then", "when", "that"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the feminine gender of 'Bachelor'?",
+    "question_np": "'Bachelor' को स्त्रीलिङ्ग के हो?",
+    "options_en": ["Bachelore", "Spinster", "Widow", "Lady"],
+    "options_np": ["Bachelore", "Spinster", "Widow", "Lady"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Choose the correct tag question: 'Let's go for a walk, ___?'",
+    "question_np": "सही tag question छान्नुहोस्: 'Let's go for a walk, ___?'",
+    "options_en": ["shall we", "don't we", "will we", "can we"],
+    "options_np": ["shall we", "don't we", "will we", "can we"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Fill in the blank: 'The news ___ true.'",
+    "question_np": "खाली ठाउँ भर्नुहोस्: 'The news ___ true.'",
+    "options_en": ["is", "are", "were", "have been"],
+    "options_np": ["is", "are", "were", "have been"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which one is a 'Gerund'?",
+    "question_np": "कुन चाहिँ 'Gerund' हो?",
+    "options_en": ["To sleep", "Sleeping is good", "He is sleeping", "Slept"],
+    "options_np": ["To sleep", "Sleeping is good", "He is sleeping", "Slept"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the passive voice of 'Who did this?'",
+    "question_np": "'Who did this?' को passive voice के हुन्छ?",
+    "options_en": ["Who was this done by?", "By whom was this done?", "This was done by whom?", "Who had done this?"],
+    "options_np": ["Who was this done by?", "By whom was this done?", "This was done by whom?", "Who had done this?"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Select the correct word: 'Mathematics ___ a difficult subject.'",
+    "question_np": "सही शब्द छान्नुहोस्: 'Mathematics ___ a difficult subject.'",
+    "options_en": ["is", "are", "were", "be"],
+    "options_np": ["is", "are", "were", "be"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Choose the correct article: 'He is ___ university student.'",
+    "question_np": "सही आर्टिकल छान्नुहोस्: 'He is ___ university student.'",
+    "options_en": ["a", "an", "the", "no article"],
+    "options_np": ["a", "an", "the", "कुनै आर्टिकल छैन"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Identify the error: 'The cattle is grazing in the field.'",
+    "question_np": "गल्ती पत्ता लगाउनुहोस्: 'The cattle is grazing in the field.'",
+    "options_en": ["The cattle", "is", "grazing", "in the field"],
+    "options_np": ["The cattle", "is", "grazing", "in the field"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the synonym of 'Prudent'?",
+    "question_np": "'Prudent' को समानार्थी शब्द के हो?",
+    "options_en": ["Careless", "Wise", "Foolish", "Quick"],
+    "options_np": ["लापरवाह", "चलाख/बुद्धिमान", "मूर्ख", "छिटो"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Correct the sentence: 'He is senior ___ me.'",
+    "question_np": "वाक्य सही बनाउनुहोस्: 'He is senior ___ me.'",
+    "options_en": ["than", "from", "to", "by"],
+    "options_np": ["than", "from", "to", "by"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the past tense of 'Lie' (meaning to rest)?",
+    "question_np": "'Lie' (आराम गर्नु) को भूतकाल के हो?",
+    "options_en": ["Lied", "Lay", "Lain", "Lying"],
+    "options_np": ["Lied", "Lay", "Lain", "Lying"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which of these is a 'Reflexive Pronoun'?",
+    "question_np": "यी मध्ये कुन 'Reflexive Pronoun' हो?",
+    "options_en": ["I", "Me", "Myself", "My"],
+    "options_np": ["I", "Me", "Myself", "My"],
+    "correct_answer": 2
+  }
+]

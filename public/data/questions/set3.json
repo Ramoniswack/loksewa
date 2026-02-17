@@ -1,0 +1,142 @@
+[
+  {
+    "question_en": "What does CPU stand for?",
+    "question_np": "CPU को पूर्ण रूप के हो?",
+    "options_en": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Computer Processing Unit"],
+    "options_np": ["सेन्ट्रल प्रोसेसिङ युनिट", "कम्प्युटर पर्सनल युनिट", "सेन्ट्रल प्रोग्राम युटिलिटी", "कम्प्युटर प्रोसेसिङ युनिट"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which of the following is an input device?",
+    "question_np": "निम्न मध्ये कुन इनपुट उपकरण हो?",
+    "options_en": ["Monitor", "Printer", "Keyboard", "Speaker"],
+    "options_np": ["मोनिटर", "प्रिन्टर", "किबोर्ड", "स्पिकर"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What does RAM stand for?",
+    "question_np": "RAM को पूर्ण रूप के हो?",
+    "options_en": ["Random Access Memory", "Read Access Memory", "Run Access Memory", "Rapid Access Memory"],
+    "options_np": ["र्यान्डम एक्सेस मेमोरी", "रिड एक्सेस मेमोरी", "रन एक्सेस मेमोरी", "र्यापिड एक्सेस मेमोरी"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which protocol is used for sending emails?",
+    "question_np": "इमेल पठाउनको लागि कुन प्रोटोकल प्रयोग गरिन्छ?",
+    "options_en": ["HTTP", "FTP", "SMTP", "TCP"],
+    "options_np": ["HTTP", "FTP", "SMTP", "TCP"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the brain of the computer?",
+    "question_np": "कम्प्युटरको दिमाग कुन हो?",
+    "options_en": ["Hard Disk", "RAM", "CPU", "Monitor"],
+    "options_np": ["हार्ड डिस्क", "RAM", "CPU", "मोनिटर"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which of the following is a web browser?",
+    "question_np": "निम्न मध्ये कुन वेब ब्राउजर हो?",
+    "options_en": ["Microsoft Word", "Google Chrome", "Adobe Photoshop", "Windows"],
+    "options_np": ["माइक्रोसफ्ट वर्ड", "गुगल क्रोम", "एडोबी फोटोशप", "विन्डोज"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What does URL stand for?",
+    "question_np": "URL को पूर्ण रूप के हो?",
+    "options_en": ["Uniform Resource Locator", "Universal Resource Locator", "Uniform Retrieval Locator", "Universal Retrieval Locator"],
+    "options_np": ["युनिफर्म रिसोर्स लोकेटर", "युनिभर्सल रिसोर्स लोकेटर", "युनिफर्म रिट्रिभल लोकेटर", "युनिभर्सल रिट्रिभल लोकेटर"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which key is used to refresh a web page?",
+    "question_np": "वेब पेज रिफ्रेस गर्न कुन कुञ्जी प्रयोग गरिन्छ?",
+    "options_en": ["F1", "F5", "F10", "F12"],
+    "options_np": ["F1", "F5", "F10", "F12"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the full form of HTML?",
+    "question_np": "HTML को पूर्ण रूप के हो?",
+    "options_en": ["Hyper Text Markup Language", "High Text Markup Language", "Hyper Transfer Markup Language", "Home Text Markup Language"],
+    "options_np": ["हाइपर टेक्स्ट मार्कअप ल्याङ्ग्वेज", "हाई टेक्स्ट मार्कअप ल्याङ्ग्वेज", "हाइपर ट्रान्सफर मार्कअप ल्याङ्ग्वेज", "होम टेक्स्ट मार्कअप ल्याङ्ग्वेज"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which device is used to connect to the internet?",
+    "question_np": "इन्टरनेटमा जडान गर्न कुन उपकरण प्रयोग गरिन्छ?",
+    "options_en": ["Printer", "Modem", "Scanner", "Projector"],
+    "options_np": ["प्रिन्टर", "मोडेम", "स्क्यानर", "प्रोजेक्टर"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the shortcut key for 'Copy' in Windows?",
+    "question_np": "Windows मा 'Copy' को सर्टकट कुञ्जी के हो?",
+    "options_en": ["Ctrl + X", "Ctrl + C", "Ctrl + V", "Ctrl + Z"],
+    "options_np": ["Ctrl + X", "Ctrl + C", "Ctrl + V", "Ctrl + Z"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which of the following is an operating system?",
+    "question_np": "निम्न मध्ये कुन अपरेटिङ सिस्टम हो?",
+    "options_en": ["MS Word", "Windows", "Excel", "PowerPoint"],
+    "options_np": ["MS Word", "Windows", "Excel", "PowerPoint"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is 1 GB equal to?",
+    "question_np": "१ GB कति बराबर हुन्छ?",
+    "options_en": ["1000 MB", "1024 MB", "1000 KB", "1024 KB"],
+    "options_np": ["१००० MB", "१०२४ MB", "१००० KB", "१०२४ KB"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which company developed the Windows operating system?",
+    "question_np": "Windows अपरेटिङ सिस्टम कुन कम्पनीले विकास गरेको हो?",
+    "options_en": ["Apple", "Microsoft", "Google", "IBM"],
+    "options_np": ["एप्पल", "माइक्रोसफ्ट", "गुगल", "IBM"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What does WWW stand for?",
+    "question_np": "WWW को पूर्ण रूप के हो?",
+    "options_en": ["World Wide Web", "World Web Wide", "Wide World Web", "Web World Wide"],
+    "options_np": ["वर्ल्ड वाइड वेब", "वर्ल्ड वेब वाइड", "वाइड वर्ल्ड वेब", "वेब वर्ल्ड वाइड"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which of the following is antivirus software?",
+    "question_np": "निम्न मध्ये कुन एन्टिभाइरस सफ्टवेयर हो?",
+    "options_en": ["MS Office", "Norton", "Photoshop", "Chrome"],
+    "options_np": ["MS Office", "Norton", "Photoshop", "Chrome"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the extension of a Microsoft Word file?",
+    "question_np": "Microsoft Word फाइलको एक्सटेन्सन के हो?",
+    "options_en": [".txt", ".doc or .docx", ".pdf", ".xls"],
+    "options_np": [".txt", ".doc वा .docx", ".pdf", ".xls"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which key combination is used to paste text?",
+    "question_np": "टेक्स्ट पेस्ट गर्न कुन कुञ्जी संयोजन प्रयोग गरिन्छ?",
+    "options_en": ["Ctrl + C", "Ctrl + X", "Ctrl + V", "Ctrl + Z"],
+    "options_np": ["Ctrl + C", "Ctrl + X", "Ctrl + V", "Ctrl + Z"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the main function of a router?",
+    "question_np": "राउटरको मुख्य कार्य के हो?",
+    "options_en": ["Print documents", "Store data", "Connect networks", "Display images"],
+    "options_np": ["कागजात छाप्नु", "डाटा भण्डारण गर्नु", "नेटवर्क जडान गर्नु", "छविहरू प्रदर्शन गर्नु"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which of the following is a search engine?",
+    "question_np": "निम्न मध्ये कुन सर्च इन्जिन हो?",
+    "options_en": ["Windows", "Google", "Linux", "Android"],
+    "options_np": ["Windows", "Google", "Linux", "Android"],
+    "correct_answer": 1
+  }
+]

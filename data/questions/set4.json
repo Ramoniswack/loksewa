@@ -1,0 +1,142 @@
+[
+  {
+    "question_en": "Which of the following is a noun?",
+    "question_np": "निम्न मध्ये कुन संज्ञा हो?",
+    "options_en": ["Run", "Beautiful", "Book", "Quickly"],
+    "options_np": ["दौडनु", "सुन्दर", "किताब", "छिटो"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the plural of 'child'?",
+    "question_np": "'child' को बहुवचन के हो?",
+    "options_en": ["Childs", "Children", "Childes", "Childrens"],
+    "options_np": ["Childs", "Children", "Childes", "Childrens"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Choose the correct sentence:",
+    "question_np": "सही वाक्य छान्नुहोस्:",
+    "options_en": ["He go to school", "He goes to school", "He going to school", "He gone to school"],
+    "options_np": ["He go to school", "He goes to school", "He going to school", "He gone to school"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the antonym of 'happy'?",
+    "question_np": "'happy' को विलोम शब्द के हो?",
+    "options_en": ["Joyful", "Sad", "Excited", "Cheerful"],
+    "options_np": ["खुशी", "दुःखी", "उत्साहित", "प्रसन्न"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which is the correct spelling?",
+    "question_np": "कुन सही हिज्जे हो?",
+    "options_en": ["Recieve", "Receive", "Receve", "Receeve"],
+    "options_np": ["Recieve", "Receive", "Receve", "Receeve"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is a synonym of 'big'?",
+    "question_np": "'big' को समानार्थी शब्द के हो?",
+    "options_en": ["Small", "Large", "Tiny", "Little"],
+    "options_np": ["सानो", "ठूलो", "नान्हो", "थोरै"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which word is an adjective?",
+    "question_np": "कुन शब्द विशेषण हो?",
+    "options_en": ["Run", "Beautiful", "Quickly", "Happiness"],
+    "options_np": ["दौडनु", "सुन्दर", "छिटो", "खुशी"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Choose the correct form: 'I ___ a student.'",
+    "question_np": "सही रूप छान्नुहोस्: 'I ___ a student.'",
+    "options_en": ["is", "am", "are", "be"],
+    "options_np": ["is", "am", "are", "be"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the past tense of 'go'?",
+    "question_np": "'go' को भूतकाल के हो?",
+    "options_en": ["Goed", "Gone", "Went", "Going"],
+    "options_np": ["Goed", "Gone", "Went", "Going"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which sentence is grammatically correct?",
+    "question_np": "कुन वाक्य व्याकरणिक रूपमा सही छ?",
+    "options_en": ["She don't like apples", "She doesn't likes apples", "She doesn't like apples", "She not like apples"],
+    "options_np": ["She don't like apples", "She doesn't likes apples", "She doesn't like apples", "She not like apples"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the opposite of 'hot'?",
+    "question_np": "'hot' को विपरीत शब्द के हो?",
+    "options_en": ["Warm", "Cold", "Cool", "Freezing"],
+    "options_np": ["तातो", "चिसो", "ठण्डा", "जमेको"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which article is used before a vowel sound?",
+    "question_np": "स्वर ध्वनि अघि कुन आर्टिकल प्रयोग गरिन्छ?",
+    "options_en": ["a", "an", "the", "no article"],
+    "options_np": ["a", "an", "the", "कुनै आर्टिकल छैन"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the superlative form of 'good'?",
+    "question_np": "'good' को उत्तम रूप के हो?",
+    "options_en": ["Gooder", "Goodest", "Better", "Best"],
+    "options_np": ["Gooder", "Goodest", "Better", "Best"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "Which is a pronoun?",
+    "question_np": "कुन सर्वनाम हो?",
+    "options_en": ["Book", "He", "Run", "Beautiful"],
+    "options_np": ["किताब", "उनी", "दौडनु", "सुन्दर"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Choose the correct preposition: 'He is good ___ mathematics.'",
+    "question_np": "सही प्रीपोजिसन छान्नुहोस्: 'He is good ___ mathematics.'",
+    "options_en": ["in", "at", "on", "with"],
+    "options_np": ["in", "at", "on", "with"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the comparative form of 'fast'?",
+    "question_np": "'fast' को तुलनात्मक रूप के हो?",
+    "options_en": ["Fastest", "Faster", "More fast", "Most fast"],
+    "options_np": ["Fastest", "Faster", "More fast", "Most fast"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which sentence uses correct punctuation?",
+    "question_np": "कुन वाक्यले सही विराम चिन्ह प्रयोग गरेको छ?",
+    "options_en": ["What is your name", "What is your name.", "What is your name?", "What is your name!"],
+    "options_np": ["What is your name", "What is your name.", "What is your name?", "What is your name!"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What type of word is 'quickly'?",
+    "question_np": "'quickly' कस्तो प्रकारको शब्द हो?",
+    "options_en": ["Noun", "Verb", "Adjective", "Adverb"],
+    "options_np": ["संज्ञा", "क्रिया", "विशेषण", "क्रियाविशेषण"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "Choose the correct form: 'They ___ playing football.'",
+    "question_np": "सही रूप छान्नुहोस्: 'They ___ playing football.'",
+    "options_en": ["is", "am", "are", "be"],
+    "options_np": ["is", "am", "are", "be"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the past participle of 'write'?",
+    "question_np": "'write' को भूतकालिक कृदन्त के हो?",
+    "options_en": ["Wrote", "Written", "Writing", "Writes"],
+    "options_np": ["Wrote", "Written", "Writing", "Writes"],
+    "correct_answer": 1
+  }
+]

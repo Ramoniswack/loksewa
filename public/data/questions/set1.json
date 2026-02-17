@@ -1,0 +1,142 @@
+[
+  {
+    "question_en": "How many articles are there in the Constitution of Nepal 2072?",
+    "question_np": "नेपालको संविधान २०७२ मा कुन धारामा खाद्य सम्बन्धी हकको व्यवस्था गरिएको छ?",
+    "options_en": ["Article 34", "Article 35", "Article 36", "Article 37"],
+    "options_np": ["धारा ३४", "धारा ३५", "धारा ३६", "धारा ३७"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "How many districts are there in Bagmati Pradesh?",
+    "question_np": "बागमती प्रदेशमा जम्मा कति जिल्ला रहेका छन्?",
+    "options_en": ["11", "12", "13", "14"],
+    "options_np": ["११", "१२", "१३", "१४"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Who is the current Secretary General of SAARC (South Asian Association for Regional Cooperation)?",
+    "question_np": "सार्क (दक्षिण एशियाली क्षेत्रीय सहयोग संगठन) को वर्तमान महासचिवको जिम्मेवारी कसले बहन गरिरहेका छन्?",
+    "options_en": ["Ms Bhagyashri Dengle", "Golam Sarwar", "Amjad Hussain", "Ahmed Saleem"],
+    "options_np": ["सुश्री भाग्यश्री डेंगले", "गोलाम सरवार", "अमजद हुसैन", "अहमद सलीम"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "How many permanent members are there in the UN Security Council?",
+    "question_np": "संयुक्त राष्ट्र सङ्घीय सुरक्षा परिषद् (UN Security Council) मा कति सदस्य रहन्छन्?",
+    "options_en": ["15", "11", "7", "4"],
+    "options_np": ["१५", "११", "७", "४"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which team won the Nepal Premier League (NPL season 2: Cricket 20/20 tournament)?",
+    "question_np": "दोस्रो नेपाल प्रिमियर लिग (Nepal Premier League-NPL season 2: Cricket 20/20 tournament) कसले जित्यो?",
+    "options_en": ["Sudurpaschim Royals", "Karnali Yaks", "Chitwan Rhinos", "Lumbini Lions"],
+    "options_np": ["सुदूरपश्चिम रोयल्स", "कर्णाली याक्स", "चितवन राइनोस", "लुम्बिनी लायन्स"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "Which is the most important record in the history of Nepal?",
+    "question_np": "अति महत्वपूर्ण अभिलेख कति समयसम्म सुरक्षित राख्नु पर्छ?",
+    "options_en": ["1 year", "1-10 years", "10-20 years", "Permanent"],
+    "options_np": ["१ वर्ष सम्म", "१-१० वर्ष सम्म", "१०-२० वर्ष सम्म", "सधैभरी"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "Which is the most popular social media platform for sharing photos?",
+    "question_np": "सामाजिक सञ्जालमा नयाँ तेहायको कुन प्रविधि हो?",
+    "options_en": ["Facebook", "Twitter", "WhatsApp", "Instagram"],
+    "options_np": ["फेसबुक", "माइक्रो", "ह्वाट्सएप", "इन्स्टाग्राम"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "What is the capital city of Nepal?",
+    "question_np": "नेपालको राजधानी शहर कुन हो?",
+    "options_en": ["Pokhara", "Kathmandu", "Lalitpur", "Bhaktapur"],
+    "options_np": ["पोखरा", "काठमाडौं", "ललितपुर", "भक्तपुर"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "When was the Constitution of Nepal 2072 promulgated?",
+    "question_np": "नेपालको संविधान २०७२ कहिले जारी भएको थियो?",
+    "options_en": ["20 September 2015", "16 May 2015", "10 January 2015", "1 March 2015"],
+    "options_np": ["२० सेप्टेम्बर २०१५", "१६ मे २०१५", "१० जनवरी २०१५", "१ मार्च २०१५"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "How many provinces are there in Nepal according to the Constitution 2072?",
+    "question_np": "संविधान २०७२ अनुसार नेपालमा कति प्रदेश छन्?",
+    "options_en": ["5", "7", "9", "14"],
+    "options_np": ["५", "७", "९", "१४"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Who is known as the 'Father of Education' in Nepal?",
+    "question_np": "नेपालमा 'शिक्षाको पिता' को रूपमा कसलाई चिनिन्छ?",
+    "options_en": ["Bhanubhakta Acharya", "Jaya Prithvi Bahadur Singh", "Motiram Bhatta", "Laxmi Prasad Devkota"],
+    "options_np": ["भानुभक्त आचार्य", "जय पृथ्वी बहादुर सिंह", "मोतीराम भट्ट", "लक्ष्मीप्रसाद देवकोटा"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the highest mountain peak in the world located in Nepal?",
+    "question_np": "नेपालमा अवस्थित विश्वको सबैभन्दा अग्लो हिमाल कुन हो?",
+    "options_en": ["K2", "Kanchenjunga", "Mount Everest", "Lhotse"],
+    "options_np": ["के२", "कञ्चनजङ्घा", "सगरमाथा", "ल्होत्से"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which river is the longest in Nepal?",
+    "question_np": "नेपालको सबैभन्दा लामो नदी कुन हो?",
+    "options_en": ["Koshi", "Gandaki", "Karnali", "Mahakali"],
+    "options_np": ["कोशी", "गण्डकी", "कर्णाली", "महाकाली"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Who was the first President of Nepal?",
+    "question_np": "नेपालको पहिलो राष्ट्रपति को हुनुहुन्थ्यो?",
+    "options_en": ["Bidya Devi Bhandari", "Ram Baran Yadav", "K.P. Sharma Oli", "Pushpa Kamal Dahal"],
+    "options_np": ["विद्या देवी भण्डारी", "राम बरण यादव", "के.पी. शर्मा ओली", "पुष्पकमल दाहाल"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the national flower of Nepal?",
+    "question_np": "नेपालको राष्ट्रिय फूल कुन हो?",
+    "options_en": ["Lotus", "Rhododendron", "Sunflower", "Jasmine"],
+    "options_np": ["कमल", "लालीगुराँस", "सूर्यमुखी", "चमेली"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "In which year did Nepal become a Federal Democratic Republic?",
+    "question_np": "नेपाल कुन वर्षमा संघीय लोकतान्त्रिक गणतन्त्र भयो?",
+    "options_en": ["2006", "2007", "2008", "2015"],
+    "options_np": ["२००६", "२००७", "२००८", "२०१५"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Who wrote the National Anthem of Nepal?",
+    "question_np": "नेपालको राष्ट्रिय गान कसले लेखेका हुन्?",
+    "options_en": ["Laxmi Prasad Devkota", "Byakul Maila", "Bhanubhakta Acharya", "Pradeep Kumar Rai"],
+    "options_np": ["लक्ष्मीप्रसाद देवकोटा", "व्याकुल मैला", "भानुभक्त आचार्य", "प्रदीप कुमार राई"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the total area of Nepal?",
+    "question_np": "नेपालको कुल क्षेत्रफल कति हो?",
+    "options_en": ["147,516 sq km", "147,181 sq km", "150,000 sq km", "140,000 sq km"],
+    "options_np": ["१४७,५१६ वर्ग किमी", "१४७,१८१ वर्ग किमी", "१५०,००० वर्ग किमी", "१४०,००० वर्ग किमी"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which is the largest district of Nepal by area?",
+    "question_np": "क्षेत्रफलको हिसाबले नेपालको सबैभन्दा ठूलो जिल्ला कुन हो?",
+    "options_en": ["Dolpa", "Humla", "Mustang", "Taplejung"],
+    "options_np": ["डोल्पा", "हुम्ला", "मुस्ताङ", "ताप्लेजुङ"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Who unified Nepal?",
+    "question_np": "नेपाललाई एकीकरण गर्ने व्यक्ति को हुन्?",
+    "options_en": ["Jung Bahadur Rana", "Prithvi Narayan Shah", "Tribhuvan Shah", "Mahendra Shah"],
+    "options_np": ["जंगबहादुर राणा", "पृथ्वीनारायण शाह", "त्रिभुवन शाह", "महेन्द्र शाह"],
+    "correct_answer": 1
+  }
+]
