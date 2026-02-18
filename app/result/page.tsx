@@ -9,7 +9,7 @@ import Link from "next/link";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement } from 'chart.js';
 import { Pie, Bar } from 'react-chartjs-2';
 import { QuizResult } from "@/types";
-import { CheckCircle2, XCircle } from "lucide-react";
+import { Book, CheckCircle2, Star, ThumbsUp, XCircle } from "lucide-react";
 
 ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement);
 
@@ -22,28 +22,22 @@ function ResultContent() {
   const [previousResults, setPreviousResults] = useState<QuizResult[]>([]);
   const [showAnswers, setShowAnswers] = useState(false);
   const [parseError, setParseError] = useState<string | null>(null);
-  const [firebaseUser, setFirebaseUser] = useState<any>(null);
   const [isLoadingResult, setIsLoadingResult] = useState(true);
 
-  // Check for Firebase user
+  // ✅ Redirect if not authenticated
   useEffect(() => {
-    const savedUser = localStorage.getItem("firebaseUser");
-    if (savedUser) {
-      setFirebaseUser(JSON.parse(savedUser));
-    }
-  }, []);
+    if (status === "loading") return;
 
-  useEffect(() => {
-    const currentUser = session?.user || firebaseUser;
-    
-    if (status === "unauthenticated" && !firebaseUser) {
+    if (status === "unauthenticated") {
       router.push("/login");
     }
-  }, [status, router, firebaseUser, session]);
+  }, [status, router]);
 
   useEffect(() => {
-    // Make sure we're in the browser
+    // Make sure we're in the browser and authenticated
     if (typeof window === 'undefined') return;
+    if (status === "loading") return;
+    if (status === "unauthenticated") return;
 
     // Try to get result from URL parameter 'id' or 'data'
     const resultId = searchParams.get("id");
@@ -194,7 +188,7 @@ function ResultContent() {
     } catch (err) {
       console.warn("Could not read previous quizResults from localStorage:", err);
     }
-  }, [searchParams, router]);
+  }, [status, searchParams, router]);
 
   if (status === "loading" || isLoadingResult) {
     return (
@@ -221,10 +215,6 @@ function ResultContent() {
         </main>
       </div>
     );
-  }
-
-  if (!session && !firebaseUser) {
-    return null;
   }
 
   if (!result) {
@@ -307,7 +297,13 @@ function ResultContent() {
           {/* Result Header */}
           <div className="text-center mb-8">
             <div className="text-6xl mb-4">
-              {result.score >= 80 ? '🎉' : result.score >= 60 ? '👍' : '📚'}
+                          {result.score >= 80 ? (
+                  <Star className="text-green-600 w-16 h-16 mx-auto" />
+                ) : result.score >= 60 ? (
+                  <ThumbsUp className="text-yellow-600 w-16 h-16 mx-auto" />
+                ) : (
+                  <Book className="text-blue-600 w-16 h-16 mx-auto" />
+                )}
             </div>
             <h1 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">
               {t("quizResults")}
@@ -589,3 +585,4 @@ export default function ResultPage() {
     </Suspense>
   );
 }
+ 

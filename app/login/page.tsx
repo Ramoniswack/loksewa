@@ -87,6 +87,15 @@ export default function LoginPage() {
   };
 
   const handleGoogleSignIn = async () => {
+    console.log("Firebase config check:", {
+      isFirebaseConfigured,
+      hasAuth: !!auth,
+      hasProvider: !!googleProvider,
+      apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY ? "set" : "missing",
+      authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+      projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    });
+
     if (!isFirebaseConfigured || !auth || !googleProvider) {
       setError(language === "np" 
         ? "Firebase कन्फिगर गरिएको छैन। कृपया .env.local फाइल जाँच गर्नुहोस्"
@@ -102,16 +111,31 @@ export default function LoginPage() {
       const result = await signInWithPopup(auth, googleProvider);
       const user = result.user;
       
-      // Store user info in localStorage for the app
-      localStorage.setItem("firebaseUser", JSON.stringify({
-        name: user.displayName,
-        email: user.email,
-        photoURL: user.photoURL,
-        uid: user.uid
-      }));
-      
-      // Redirect to dashboard
-      router.push("/dashboard");
+      // Create NextAuth session with Firebase user
+      const sessionResult = await signIn("credentials", {
+        firebaseUser: JSON.stringify({
+          name: user.displayName,
+          email: user.email,
+          photoURL: user.photoURL,
+          uid: user.uid
+        }),
+        redirect: false,
+      });
+
+      if (sessionResult?.error) {
+        setError(language === "np" 
+          ? "सत्र निर्माण असफल। पुन: प्रयास गर्नुहोस्"
+          : "Session creation failed. Please try again");
+      } else {
+        // Also store in localStorage for backup
+        localStorage.setItem("firebaseUser", JSON.stringify({
+          name: user.displayName,
+          email: user.email,
+          photoURL: user.photoURL,
+          uid: user.uid
+        }));
+        router.push("/dashboard");
+      }
     } catch (error: any) {
       console.error("Google sign-in error:", error);
       setError(language === "np" 

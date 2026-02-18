@@ -8,8 +8,6 @@ import Header from "@/components/Header";
 import Link from "next/link";
 import { QuizResult } from "@/types";
 import { BookOpen, Calculator, Monitor, FileText, BarChart3, Target, TrendingUp } from "lucide-react";
-import { auth, isFirebaseConfigured } from "@/lib/firebase";
-import { onAuthStateChanged } from "firebase/auth";
 
 const questionSets = [
   { id: 1, icon: BookOpen, color: "bg-blue-100 dark:bg-blue-900", iconColor: "text-blue-600" },
@@ -23,38 +21,13 @@ export default function DashboardPage() {
   const router = useRouter();
   const { t, language } = useLanguage();
   const [results, setResults] = useState<QuizResult[]>([]);
-  const [firebaseUser, setFirebaseUser] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
 
-  // Check for Firebase authentication
+  // ✅ Redirect if not authenticated
   useEffect(() => {
-    if (isFirebaseConfigured && auth) {
-      const unsubscribe = onAuthStateChanged(auth, (user) => {
-        if (user) {
-          setFirebaseUser(user);
-          setLoading(false);
-        } else {
-          // Check localStorage for Firebase user
-          const savedUser = localStorage.getItem("firebaseUser");
-          if (savedUser) {
-            setFirebaseUser(JSON.parse(savedUser));
-            setLoading(false);
-          } else if (status === "unauthenticated") {
-            router.push("/login");
-          } else if (status !== "loading") {
-            setLoading(false);
-          }
-        }
-      });
+    if (status === "loading") return;
 
-      return () => unsubscribe();
-    } else {
-      // Firebase not configured, rely on NextAuth only
-      if (status === "unauthenticated") {
-        router.push("/login");
-      } else if (status !== "loading") {
-        setLoading(false);
-      }
+    if (status === "unauthenticated") {
+      router.push("/login");
     }
   }, [status, router]);
 
@@ -65,7 +38,7 @@ export default function DashboardPage() {
     }
   }, []);
 
-  if (loading || status === "loading") {
+  if (status === "loading") {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-2xl">Loading...</div>
@@ -73,12 +46,11 @@ export default function DashboardPage() {
     );
   }
 
-  // Get user from either NextAuth or Firebase
-  const currentUser = session?.user || firebaseUser;
-  
-  if (!currentUser) {
+  if (status === "unauthenticated") {
     return null;
   }
+
+  const currentUser = session?.user;
 
   const totalAttempts = results.length;
   const averageScore = totalAttempts > 0
@@ -93,7 +65,7 @@ export default function DashboardPage() {
         {/* Welcome Section */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">
-            {t("welcomeBack")}, {currentUser?.name || currentUser?.displayName}!
+            {t("welcomeBack")}, {currentUser?.name}!
           </h1>
           <p className="text-gray-600 dark:text-gray-400">
             {language === "np" 

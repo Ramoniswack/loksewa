@@ -93,7 +93,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <span>📱</span>
-                <span>+977-1-XXXXXXX</span>
+                <span>+977-1-000000</span>
               </li>
               <li className="flex items-center space-x-2">
                 <span>📍</span>

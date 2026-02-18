@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import { Book, Star } from "lucide-react";
 
 export default function BlogPostPage() {
   const { language } = useLanguage();
@@ -160,7 +161,9 @@ export default function BlogPostPage() {
             <div className="grid md:grid-cols-2 gap-4">
               <Link href="/blog/2" className="card hover:shadow-lg transition">
                 <div className="flex items-start space-x-3">
-                  <div className="text-3xl">💡</div>
+                  <div className="text-3xl">
+                    <Star className="text-green-600 w-8 h-8" />
+                  </div>
                   <div>
                     <h4 className="font-bold text-gray-800 dark:text-white mb-1">
                       {language === "np" 
@@ -175,7 +178,9 @@ export default function BlogPostPage() {
               </Link>
               <Link href="/blog/3" className="card hover:shadow-lg transition">
                 <div className="flex items-start space-x-3">
-                  <div className="text-3xl">📚</div>
+                  <div className="text-3xl">
+                    <Book className="text-purple-600 w-8 h-8" />
+                  </div>
                   <div>
                     <h4 className="font-bold text-gray-800 dark:text-white mb-1">
                       {language === "np" 
