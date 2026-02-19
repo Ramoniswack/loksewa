@@ -5,7 +5,7 @@ import { useParams } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import { Book, Star } from "lucide-react";
+import { Book, Star, Lightbulb, FileText, Calendar, Eye } from "lucide-react";
 
 export default function BlogPostPage() {
   const { language } = useLanguage();
@@ -35,7 +35,7 @@ export default function BlogPostPage() {
 
           {/* Article Header */}
           <div className="card mb-6">
-            <div className="text-5xl mb-4">📄</div>
+            <FileText className="w-12 h-12 mb-4 text-blue-600" />
             <h1 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
               {language === "np" 
                 ? "पूर्ण PSC मोडेल प्रश्नहरू २०८२ पाठ्यक्रम सहित"
@@ -45,8 +45,8 @@ export default function BlogPostPage() {
               <span className="bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 px-3 py-1 rounded">
                 Model Papers
               </span>
-              <span>📅 {language === "np" ? "जनवरी १५, २०२४" : "January 15, 2024"}</span>
-              <span>👁️ {language === "np" ? "१,२३४ दृश्यहरू" : "1,234 views"}</span>
+              <span className="flex items-center gap-1"><Calendar className="w-4 h-4" /> {language === "np" ? "जनवरी १५, २०२४" : "January 15, 2024"}</span>
+              <span className="flex items-center gap-1"><Eye className="w-4 h-4" /> {language === "np" ? "१,२३४ दृश्यहरू" : "1,234 views"}</span>
             </div>
           </div>
 
@@ -126,11 +126,14 @@ export default function BlogPostPage() {
               </ul>
 
               <div className="bg-yellow-50 dark:bg-yellow-900 p-6 rounded-lg border-l-4 border-yellow-500">
-                <p className="text-gray-700 dark:text-gray-300 font-medium">
-                  💡 {language === "np" 
-                    ? "सुझाव: हाम्रो अनलाइन क्विज प्रणाली प्रयोग गरेर आफ्नो तयारी परीक्षण गर्नुहोस्।"
-                    : "Tip: Test your preparation using our online quiz system."}
-                </p>
+                <div className="flex items-start space-x-3">
+                  <Lightbulb className="w-6 h-6 text-yellow-600 flex-shrink-0 mt-1" />
+                  <p className="text-gray-700 dark:text-gray-300 font-medium">
+                    {language === "np" 
+                      ? "सुझाव: हाम्रो अनलाइन क्विज प्रणाली प्रयोग गरेर आफ्नो तयारी परीक्षण गर्नुहोस्।"
+                      : "Tip: Test your preparation using our online quiz system."}
+                  </p>
+                </div>
               </div>
             </div>
           </div>

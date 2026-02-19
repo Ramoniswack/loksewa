@@ -153,7 +153,7 @@ export default function LoginPage() {
       <main className="container mx-auto px-4 py-16">
         <div className="max-w-md mx-auto">
           <div className="card">
-            <div className="text-6xl mb-6 text-center">🔐</div>
+            <div className="flex justify-center mb-6"><Lock className="w-16 h-16 text-blue-600" /></div>
             <h1 className="text-3xl font-bold text-primary-700 dark:text-primary-300 mb-2 text-center">
               {isLogin 
                 ? (language === "np" ? "लगइन" : "Login")

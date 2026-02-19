@@ -4,6 +4,17 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import { Clipboard, MessageSquare, GraduationCap, Lightbulb } from "lucide-react";
+
+const getIconComponent = (iconName: string) => {
+  const iconMap: { [key: string]: React.ComponentType<{className?: string}> } = {
+    "📋": Clipboard,
+    "📝": MessageSquare,
+    "👨‍🏫": GraduationCap,
+    "💡": Lightbulb,
+  };
+  return iconMap[iconName] || MessageSquare;
+};
 
 const modelPapers = [
   {
@@ -124,10 +135,12 @@ export default function ModelPapersPage() {
 
         {/* Model Papers Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {modelPapers.map((paper) => (
+          {modelPapers.map((paper) => {
+            const IconComponent = getIconComponent(paper.icon);
+            return (
             <div key={paper.id} className="card hover:shadow-lg transition">
               <div className="flex items-start justify-between mb-4">
-                <div className="text-4xl">{paper.icon}</div>
+                <IconComponent className="w-12 h-12 text-blue-600" />
                 <span className="bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 px-3 py-1 rounded text-sm font-medium">
                   {paper.year}
                 </span>
@@ -176,13 +189,14 @@ export default function ModelPapersPage() {
                 </button>
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Info Section */}
         <div className="card bg-blue-50 dark:bg-blue-900 border-l-4 border-primary-600 mt-8">
           <div className="flex items-start space-x-3">
-            <div className="text-2xl">💡</div>
+            <Lightbulb className="w-8 h-8 text-blue-600 flex-shrink-0" />
             <div>
               <h3 className="font-bold text-gray-800 dark:text-white mb-2">
                 {language === "np" ? "मोडेल पेपर कसरी प्रयोग गर्ने?" : "How to Use Model Papers?"}

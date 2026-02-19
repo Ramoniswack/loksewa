@@ -4,6 +4,19 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import { FileText, Lightbulb, BookOpen, Monitor, Calculator, MapPin } from "lucide-react";
+
+const getIconComponent = (iconName: string) => {
+  const iconMap: { [key: string]: React.ComponentType<{className?: string}> } = {
+    "📄": FileText,
+    "💡": Lightbulb,
+    "📚": BookOpen,
+    "💻": Monitor,
+    "🔢": Calculator,
+    "🗺️": MapPin,
+  };
+  return iconMap[iconName] || FileText;
+};
 
 const blogPosts = [
   {
@@ -106,13 +119,15 @@ export default function BlogPage() {
 
         {/* Blog Posts Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {blogPosts.map((post) => (
+          {blogPosts.map((post) => {
+            const IconComponent = getIconComponent(post.icon);
+            return (
             <Link
               key={post.id}
               href={`/blog/${post.id}`}
               className="card hover:shadow-lg transition group"
             >
-              <div className="text-4xl mb-3">{post.icon}</div>
+              <IconComponent className="w-10 h-10 mb-3 text-blue-600" />
               <div className="mb-2">
                 <span className="text-xs bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 px-2 py-1 rounded">
                   {post.category}
@@ -131,7 +146,8 @@ export default function BlogPage() {
                 </span>
               </div>
             </Link>
-          ))}
+            );
+          })}
         </div>
       </main>
 

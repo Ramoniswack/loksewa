@@ -4,6 +4,17 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import { Clipboard, MessageSquare, GraduationCap, Download, Info } from "lucide-react";
+
+const getIconComponent = (iconName: string) => {
+  const iconMap: { [key: string]: React.ComponentType<{className?: string}> } = {
+    "📋": Clipboard,
+    "📝": MessageSquare,
+    "🎓": GraduationCap,
+    "👨‍🏫": GraduationCap,
+  };
+  return iconMap[iconName] || MessageSquare;
+};
 
 const syllabusData = [
   {
@@ -90,7 +101,7 @@ export default function SyllabusPage() {
         {/* Info Banner */}
         <div className="card bg-blue-50 dark:bg-blue-900 border-l-4 border-primary-600 mb-8">
           <div className="flex items-start space-x-3">
-            <div className="text-2xl">ℹ️</div>
+            <Info className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
             <div>
               <h3 className="font-bold text-gray-800 dark:text-white mb-1">
                 {language === "np" ? "महत्त्वपूर्ण सूचना" : "Important Notice"}
@@ -106,11 +117,13 @@ export default function SyllabusPage() {
 
         {/* Syllabus Cards */}
         <div className="space-y-6">
-          {syllabusData.map((item) => (
+          {syllabusData.map((item) => {
+            const IconComponent = getIconComponent(item.icon);
+            return (
             <div key={item.id} className="card">
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-start space-x-3">
-                  <div className="text-4xl">{item.icon}</div>
+                  <IconComponent className="w-12 h-12 text-blue-600" />
                   <div>
                     <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-1">
                       {language === "en" ? item.position_en : item.position_np}
@@ -188,12 +201,13 @@ export default function SyllabusPage() {
                 </Link>
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Download Section */}
         <div className="card bg-gradient-to-r from-primary-600 to-primary-700 text-white text-center mt-8">
-          <div className="text-5xl mb-4">📥</div>
+          <div className="mb-4"><Download className="w-16 h-16 mx-auto" /></div>
           <h3 className="text-2xl font-bold mb-3">
             {language === "np" ? "पाठ्यक्रम डाउनलोड गर्नुहोस्" : "Download Syllabus"}
           </h3>

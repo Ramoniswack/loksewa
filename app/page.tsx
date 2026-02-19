@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import { BookOpen, Calculator, Monitor, FileText, BarChart3 } from "lucide-react";
+import { BookOpen, Calculator, Monitor, FileText, BarChart3, Flag } from "lucide-react";
 
 export default function Home() {
   const { data: session } = useSession();
@@ -29,7 +29,7 @@ export default function Home() {
 
           {/* Hero Section */}
           <div className="mb-14">
-            <div className="text-7xl mb-6">🇳🇵</div>
+            <div className="mb-6"><Flag className="w-20 h-20 mx-auto text-blue-600" /></div>
 
             <h1 className="text-4xl md:text-5xl font-extrabold text-blue-700 dark:text-red-400 mb-5 tracking-tight">
               {language === "np"
