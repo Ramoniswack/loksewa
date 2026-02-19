@@ -100,12 +100,7 @@ export default function Footer() {
                 <span>Kathmandu, Nepal</span>
               </li>
             </ul>
-            <div className="flex space-x-3 mt-4">
-              <a href="#" className="text-gray-200 hover:text-white transition text-xl">📘</a>
-              <a href="#" className="text-gray-200 hover:text-white transition text-xl">🐦</a>
-              <a href="#" className="text-gray-200 hover:text-white transition text-xl">📷</a>
-              <a href="#" className="text-gray-200 hover:text-white transition text-xl">▶️</a>
-            </div>
+            
           </div>
         </div>
 
