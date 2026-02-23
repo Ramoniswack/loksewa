@@ -1,142 +1,715 @@
 [
   {
-    "question_en": "What does CPU stand for?",
-    "question_np": "CPU को पूर्ण रूप के हो?",
-    "options_en": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Computer Processing Unit"],
-    "options_np": ["सेन्ट्रल प्रोसेसिङ युनिट", "कम्प्युटर पर्सनल युनिट", "सेन्ट्रल प्रोग्राम युटिलिटी", "कम्प्युटर प्रोसेसिङ युनिट"],
+    "question_en": "Which is the smallest district of Nepal?",
+    "question_np": "क्षेत्रफलको हिसाबले नेपालको सबैभन्दा सानो जिल्ला कुन हो?",
+    "options_en": ["Bhaktapur", "Lalitpur", "Kathmandu", "Parbat"],
+    "options_np": ["भक्तपुर", "ललितपुर", "काठमाडौं", "पर्वत"],
     "correct_answer": 0
   },
   {
-    "question_en": "Which of the following is an input device?",
-    "question_np": "निम्न मध्ये कुन इनपुट उपकरण हो?",
-    "options_en": ["Monitor", "Printer", "Keyboard", "Speaker"],
-    "options_np": ["मोनिटर", "प्रिन्टर", "किबोर्ड", "स्पिकर"],
-    "correct_answer": 2
-  },
-  {
-    "question_en": "What does RAM stand for?",
-    "question_np": "RAM को पूर्ण रूप के हो?",
-    "options_en": ["Random Access Memory", "Read Access Memory", "Run Access Memory", "Rapid Access Memory"],
-    "options_np": ["र्यान्डम एक्सेस मेमोरी", "रिड एक्सेस मेमोरी", "रन एक्सेस मेमोरी", "र्यापिड एक्सेस मेमोरी"],
+    "question_en": "In which province is Mount Everest located?",
+    "question_np": "सगरमाथा कुन प्रदेशमा अवस्थित छ?",
+    "options_en": ["Koshi Province", "Madhesh Province", "Bagmati Province", "Gandaki Province"],
+    "options_np": ["कोशी प्रदेश", "मधेश प्रदेश", "बागमती प्रदेश", "गण्डकी प्रदेश"],
     "correct_answer": 0
   },
   {
-    "question_en": "Which protocol is used for sending emails?",
-    "question_np": "इमेल पठाउनको लागि कुन प्रोटोकल प्रयोग गरिन्छ?",
-    "options_en": ["HTTP", "FTP", "SMTP", "TCP"],
-    "options_np": ["HTTP", "FTP", "SMTP", "TCP"],
-    "correct_answer": 2
-  },
-  {
-    "question_en": "What is the brain of the computer?",
-    "question_np": "कम्प्युटरको दिमाग कुन हो?",
-    "options_en": ["Hard Disk", "RAM", "CPU", "Monitor"],
-    "options_np": ["हार्ड डिस्क", "RAM", "CPU", "मोनिटर"],
-    "correct_answer": 2
-  },
-  {
-    "question_en": "Which of the following is a web browser?",
-    "question_np": "निम्न मध्ये कुन वेब ब्राउजर हो?",
-    "options_en": ["Microsoft Word", "Google Chrome", "Adobe Photoshop", "Windows"],
-    "options_np": ["माइक्रोसफ्ट वर्ड", "गुगल क्रोम", "एडोबी फोटोशप", "विन्डोज"],
+    "question_en": "Who was the first woman President of Nepal?",
+    "question_np": "नेपालको पहिलो महिला राष्ट्रपति को हुन्?",
+    "options_en": ["Onsari Gharti Magar", "Bidya Devi Bhandari", "Sushila Karki", "Shailaja Acharya"],
+    "options_np": ["ओनसरी घर्ती मगर", "विद्यादेवी भण्डारी", "सुशीला कार्की", "शैलजा आचार्य"],
     "correct_answer": 1
   },
   {
-    "question_en": "What does URL stand for?",
-    "question_np": "URL को पूर्ण रूप के हो?",
-    "options_en": ["Uniform Resource Locator", "Universal Resource Locator", "Uniform Retrieval Locator", "Universal Retrieval Locator"],
-    "options_np": ["युनिफर्म रिसोर्स लोकेटर", "युनिभर्सल रिसोर्स लोकेटर", "युनिफर्म रिट्रिभल लोकेटर", "युनिभर्सल रिट्रिभल लोकेटर"],
+    "question_en": "Which country is known as the 'Land of the Rising Sun'?",
+    "question_np": "कुन देशलाई 'उदाउँदो सूर्यको देश' भनिन्छ?",
+    "options_en": ["China", "Japan", "Norway", "Australia"],
+    "options_np": ["चीन", "जापान", "नर्वे", "अष्ट्रेलिया"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Where is the headquarters of the United Nations (UN)?",
+    "question_np": "संयुक्त राष्ट्र संघ (UN) को मुख्यालय कहाँ छ?",
+    "options_en": ["Geneva", "London", "New York", "Paris"],
+    "options_np": ["जेनेभा", "लण्डन", "न्युयोर्क", "पेरिस"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which pass connects Nepal and Tibet in the Rasuwa district?",
+    "question_np": "रसुवा जिल्लामा नेपाल र तिब्बत जोड्ने नाका कुन हो?",
+    "options_en": ["Kodari", "Kerung", "Hilsa", "Kimathanka"],
+    "options_np": ["कोदारी", "केरुङ", "हिल्सा", "किमाथान्का"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "How many states are there in India?",
+    "question_np": "भारतमा जम्मा कतिवटा राज्यहरू छन्?",
+    "options_en": ["25", "28", "29", "30"],
+    "options_np": ["२५", "२८", "२९", "३०"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Who discovered America?",
+    "question_np": "अमेरिकाको खोज कसले गरेका हुन्?",
+    "options_en": ["Vasco da Gama", "Christopher Columbus", "James Cook", "Marco Polo"],
+    "options_np": ["भास्को द गामा", "क्रिस्टोफर कोलम्बस", "जेम्स कुक", "मार्को पोलो"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which city is known as the 'Pink City' of India?",
+    "question_np": "भारतको कुन शहरलाई 'गुलाबी शहर' भनिन्छ?",
+    "options_en": ["Delhi", "Mumbai", "Jaipur", "Kolkata"],
+    "options_np": ["दिल्ली", "मुम्बई", "जयपुर", "कोलकाता"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the currency of Bangladesh?",
+    "question_np": "बंगलादेशको मुद्रालाई के भनिन्छ?",
+    "options_en": ["Rupee", "Taka", "Kyat", "Dinar"],
+    "options_np": ["रुपैयाँ", "टका", "क्यात", "दिनार"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which animal is on the logo of the World Wildlife Fund (WWF)?",
+    "question_np": "WWF को लोगोमा कुन जनावर छ?",
+    "options_en": ["Tiger", "Panda", "Elephant", "Lion"],
+    "options_np": ["बाघ", "पाण्डा", "हात्ती", "सिंह"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Who was the first human to travel into space?",
+    "question_np": "अन्तरिक्षमा पुग्ने पहिलो मानव को हुन्?",
+    "options_en": ["Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "Rakesh Sharma"],
+    "options_np": ["निल आर्मस्ट्रङ्ग", "युरी गागरिन", "बज एल्ड्रिन", "राकेश शर्मा"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which is the largest ocean in the world?",
+    "question_np": "विश्वको सबैभन्दा ठूलो महासागर कुन हो?",
+    "options_en": ["Atlantic Ocean", "Pacific Ocean", "Indian Ocean", "Arctic Ocean"],
+    "options_np": ["आन्ध्र महासागर", "प्रशान्त महासागर", "हिन्द महासागर", "सुमेरु महासागर"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which country won the FIFA World Cup 2022?",
+    "question_np": "सन् २०२२ को फिफा विश्वकप कसले जित्यो?",
+    "options_en": ["France", "Brazil", "Argentina", "Germany"],
+    "options_np": ["फ्रान्स", "ब्राजिल", "अर्जेन्टिना", "जर्मनी"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "The Great Wall is located in which country?",
+    "question_np": "ग्रेट वाल कुन देशमा अवस्थित छ?",
+    "options_en": ["India", "USA", "China", "Russia"],
+    "options_np": ["भारत", "अमेरिका", "चीन", "रूस"],
+    "correct_answer": 2
+  },
+  
+  {
+    "question_en": "Which is the smallest unit of life?",
+    "question_np": "जीवनको सबैभन्दा सानो एकाइ कुन हो?",
+    "options_en": ["Tissue", "Organ", "Cell", "Muscle"],
+    "options_np": ["तन्तु", "अङ्ग", "कोष", "मांशपेशी"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "How many teeth does an adult human typically have?",
+    "question_np": "एक वयस्क मानवमा सामान्यतया कतिवटा दाँत हुन्छन्?",
+    "options_en": ["28", "30", "32", "34"],
+    "options_np": ["२८", "३०", "३२", "३४"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the main function of red blood cells?",
+    "question_np": "रातो रक्त कोषिकाको मुख्य कार्य के हो?",
+    "options_en": ["Fight infection", "Carry oxygen", "Clot blood", "Provide energy"],
+    "options_np": ["संक्रमण विरुद्ध लड्ने", "अक्सिजन ओसार्ने", "रगत जमाउने", "ऊर्जा दिने"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which pigment gives leaves their green color?",
+    "question_np": "पातलाई हरियो रङ्ग कुन तत्वले दिन्छ?",
+    "options_en": ["Hemoglobin", "Chlorophyll", "Melanin", "Carotene"],
+    "options_np": ["हेमोग्लोबिन", "क्लोरोफिल", "मेलानिन", "क्यारोटिन"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which organ in the human body is responsible for filtration of blood?",
+    "question_np": "मानव शरीरको कुन अङ्गले रगत छान्ने काम गर्छ?",
+    "options_en": ["Heart", "Lungs", "Kidney", "Liver"],
+    "options_np": ["मुटु", "फोक्सो", "मृगौला", "कलेजो"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which vitamin deficiency causes Scurvy?",
+    "question_np": "कुन भिटामिनको कमीले स्कर्भी रोग लाग्छ?",
+    "options_en": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+    "options_np": ["भिटामिन ए", "भिटामिन बी", "भिटामिन सी", "भिटामिन डी"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which is the largest bone in the human body?",
+    "question_np": "मानव शरीरको सबैभन्दा लामो हड्डी कुन हो?",
+    "options_en": ["Skull", "Femur", "Ribs", "Spine"],
+    "options_np": ["खप्पर", "फिमर", "करङ", "मेरुदण्ड"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which gas is produced during photosynthesis?",
+    "question_np": "प्रकाश संश्लेषण प्रक्रियामा कुन ग्यास उत्पादन हुन्छ?",
+    "options_en": ["Carbon Dioxide", "Nitrogen", "Oxygen", "Methane"],
+    "options_np": ["कार्बन डाइअक्साइड", "नाइट्रोजन", "अक्सिजन", "मिथेन"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the normal body temperature of a human?",
+    "question_np": "मानव शरीरको सामान्य तापक्रम कति हो?",
+    "options_en": ["35°C", "37°C", "39°C", "40°C"],
+    "options_np": ["३५°C", "३७°C", "३९°C", "४०°C"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Who is the 'Father of Genetics'?",
+    "question_np": "'वंशाणु विज्ञानका पिता' भनेर कसलाई चिनिन्छ?",
+    "options_en": ["Charles Darwin", "Gregor Mendel", "Louis Pasteur", "Robert Hooke"],
+    "options_np": ["चार्ल्स डार्भिन", "ग्रेगर मेन्डल", "लुइस पाश्चर", "रोबर्ट हुक"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question_en": "What is the chemical symbol for Gold?",
+    "question_np": "सुनको रासायनिक संकेत के हो?",
+    "options_en": ["Ag", "Au", "Fe", "Pb"],
+    "options_np": ["Ag", "Au", "Fe", "Pb"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which element is common to all acids?",
+    "question_np": "सबै अम्लहरूमा कुन तत्व अनिवार्य रूपमा हुन्छ?",
+    "options_en": ["Oxygen", "Hydrogen", "Carbon", "Sulfur"],
+    "options_np": ["अक्सिजन", "हाइड्रोजन", "कार्बन", "सल्फर"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the SI unit of Force?",
+    "question_np": "बल (Force) को SI एकाइ के हो?",
+    "options_en": ["Joule", "Watt", "Newton", "Pascal"],
+    "options_np": ["जुल", "वाट", "न्युटन", "पास्कल"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the chemical name of common salt?",
+    "question_np": "साधारण नुनको रासायनिक नाम के हो?",
+    "options_en": ["Sodium Chloride", "Sodium Bicarbonate", "Calcium Carbonate", "Potassium Nitrate"],
+    "options_np": ["सोडियम क्लोराइड", "सोडियम बाइकार्बोनेट", "क्याल्सियम कार्बोनेट", "पोटासियम नाइट्रेट"],
     "correct_answer": 0
   },
   {
-    "question_en": "Which key is used to refresh a web page?",
-    "question_np": "वेब पेज रिफ्रेस गर्न कुन कुञ्जी प्रयोग गरिन्छ?",
-    "options_en": ["F1", "F5", "F10", "F12"],
-    "options_np": ["F1", "F5", "F10", "F12"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "What is the full form of HTML?",
-    "question_np": "HTML को पूर्ण रूप के हो?",
-    "options_en": ["Hyper Text Markup Language", "High Text Markup Language", "Hyper Transfer Markup Language", "Home Text Markup Language"],
-    "options_np": ["हाइपर टेक्स्ट मार्कअप ल्याङ्ग्वेज", "हाई टेक्स्ट मार्कअप ल्याङ्ग्वेज", "हाइपर ट्रान्सफर मार्कअप ल्याङ्ग्वेज", "होम टेक्स्ट मार्कअप ल्याङ्ग्वेज"],
-    "correct_answer": 0
-  },
-  {
-    "question_en": "Which device is used to connect to the internet?",
-    "question_np": "इन्टरनेटमा जडान गर्न कुन उपकरण प्रयोग गरिन्छ?",
-    "options_en": ["Printer", "Modem", "Scanner", "Projector"],
-    "options_np": ["प्रिन्टर", "मोडेम", "स्क्यानर", "प्रोजेक्टर"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "What is the shortcut key for 'Copy' in Windows?",
-    "question_np": "Windows मा 'Copy' को सर्टकट कुञ्जी के हो?",
-    "options_en": ["Ctrl + X", "Ctrl + C", "Ctrl + V", "Ctrl + Z"],
-    "options_np": ["Ctrl + X", "Ctrl + C", "Ctrl + V", "Ctrl + Z"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "Which of the following is an operating system?",
-    "question_np": "निम्न मध्ये कुन अपरेटिङ सिस्टम हो?",
-    "options_en": ["MS Word", "Windows", "Excel", "PowerPoint"],
-    "options_np": ["MS Word", "Windows", "Excel", "PowerPoint"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "What is 1 GB equal to?",
-    "question_np": "१ GB कति बराबर हुन्छ?",
-    "options_en": ["1000 MB", "1024 MB", "1000 KB", "1024 KB"],
-    "options_np": ["१००० MB", "१०२४ MB", "१००० KB", "१०२४ KB"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "Which company developed the Windows operating system?",
-    "question_np": "Windows अपरेटिङ सिस्टम कुन कम्पनीले विकास गरेको हो?",
-    "options_en": ["Apple", "Microsoft", "Google", "IBM"],
-    "options_np": ["एप्पल", "माइक्रोसफ्ट", "गुगल", "IBM"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "What does WWW stand for?",
-    "question_np": "WWW को पूर्ण रूप के हो?",
-    "options_en": ["World Wide Web", "World Web Wide", "Wide World Web", "Web World Wide"],
-    "options_np": ["वर्ल्ड वाइड वेब", "वर्ल्ड वेब वाइड", "वाइड वर्ल्ड वेब", "वेब वर्ल्ड वाइड"],
-    "correct_answer": 0
-  },
-  {
-    "question_en": "Which of the following is antivirus software?",
-    "question_np": "निम्न मध्ये कुन एन्टिभाइरस सफ्टवेयर हो?",
-    "options_en": ["MS Office", "Norton", "Photoshop", "Chrome"],
-    "options_np": ["MS Office", "Norton", "Photoshop", "Chrome"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "What is the extension of a Microsoft Word file?",
-    "question_np": "Microsoft Word फाइलको एक्सटेन्सन के हो?",
-    "options_en": [".txt", ".doc or .docx", ".pdf", ".xls"],
-    "options_np": [".txt", ".doc वा .docx", ".pdf", ".xls"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "Which key combination is used to paste text?",
-    "question_np": "टेक्स्ट पेस्ट गर्न कुन कुञ्जी संयोजन प्रयोग गरिन्छ?",
-    "options_en": ["Ctrl + C", "Ctrl + X", "Ctrl + V", "Ctrl + Z"],
-    "options_np": ["Ctrl + C", "Ctrl + X", "Ctrl + V", "Ctrl + Z"],
+    "question_en": "Which mirror is used by dentists to see teeth?",
+    "question_np": "दाँत जाँच्न दन्त चिकित्सकले कुन ऐना प्रयोग गर्छन्?",
+    "options_en": ["Convex Mirror", "Plane Mirror", "Concave Mirror", "Bifocal Mirror"],
+    "options_np": ["उत्तल ऐना", "समतल ऐना", "अवतल ऐना", "बाइफोकल ऐना"],
     "correct_answer": 2
   },
   {
-    "question_en": "What is the main function of a router?",
-    "question_np": "राउटरको मुख्य कार्य के हो?",
-    "options_en": ["Print documents", "Store data", "Connect networks", "Display images"],
-    "options_np": ["कागजात छाप्नु", "डाटा भण्डारण गर्नु", "नेटवर्क जडान गर्नु", "छविहरू प्रदर्शन गर्नु"],
+    "question_en": "Sound travels fastest through which medium?",
+    "question_np": "ध्वनि कुन माध्यममा सबैभन्दा छिटो हिंड्छ?",
+    "options_en": ["Air", "Water", "Solid", "Vacuum"],
+    "options_np": ["हावा", "पानी", "ठोस", "शून्य"],
     "correct_answer": 2
   },
   {
-    "question_en": "Which of the following is a search engine?",
-    "question_np": "निम्न मध्ये कुन सर्च इन्जिन हो?",
-    "options_en": ["Windows", "Google", "Linux", "Android"],
-    "options_np": ["Windows", "Google", "Linux", "Android"],
+    "question_en": "Which gas is used in fire extinguishers?",
+    "question_np": "आगो निभाउने उपकरणमा कुन ग्यास प्रयोग गरिन्छ?",
+    "options_en": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"],
+    "options_np": ["अक्सिजन", "कार्बन डाइअक्साइड", "नाइट्रोजन", "हिलियम"],
     "correct_answer": 1
+  },
+  {
+    "question_en": "What is the PH value of pure water?",
+    "question_np": "शुद्ध पानीको PH मान कति हुन्छ?",
+    "options_en": ["5", "7", "9", "11"],
+    "options_np": ["५", "७", "९", "११"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which device is used to measure electric current?",
+    "question_np": "विद्युत प्रवाह मापन गर्न कुन उपकरण प्रयोग गरिन्छ?",
+    "options_en": ["Voltmeter", "Galvanometer", "Ammeter", "Thermometer"],
+    "options_np": ["भोल्टमिटर", "ग्याल्भानोमिटर", "एममिटर", "थर्मोमिटर"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Diamond is an allotrope of which element?",
+    "question_np": "हीरा कुन तत्वको अपरूप हो?",
+    "options_en": ["Oxygen", "Carbon", "Silicon", "Iron"],
+    "options_np": ["अक्सिजन", "कार्बन", "सिलिकन", "फलाम"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the speed of light in vacuum?",
+    "question_np": "शून्यमा प्रकाशको गति कति हुन्छ?",
+    "options_en": ["3,00,000 km/s", "1,50,000 km/s", "2,00,000 km/s", "4,00,000 km/s"],
+    "options_np": ["३,००,००० किमी/से", "१,५०,००० किमी/से", "२,००,००० किमी/से", "४,००,००० किमी/से"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Dry ice is the solid form of which gas?",
+    "question_np": "'ड्राई आइस' कुन ग्यासको ठोस रूप हो?",
+    "options_en": ["Nitrogen", "Oxygen", "Carbon Dioxide", "Argon"],
+    "options_np": ["नाइट्रोजन", "अक्सिजन", "कार्बन डाइअक्साइड", "आर्गन"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which law states that energy cannot be created or destroyed?",
+    "question_np": "ऊर्जा न त निर्माण गर्न सकिन्छ न नष्ट नै, यो कुन नियम हो?",
+    "options_en": ["Boyle's Law", "Newton's Law", "Law of Conservation of Energy", "Ohm's Law"],
+    "options_np": ["बोयलको नियम", "न्युटनको नियम", "ऊर्जा संरक्षणको नियम", "ओमको नियम"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the atomic number of Hydrogen?",
+    "question_np": "हाइड्रोजनको परमाणु संख्या कति हो?",
+    "options_en": ["1", "2", "3", "4"],
+    "options_np": ["१", "२", "३", "४"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which lens is used to correct short-sightedness (Myopia)?",
+    "question_np": "दूरीको वस्तु प्रस्ट नदेख्ने (Myopia) दृष्टिदोष हटाउन कुन लेन्स प्रयोग गरिन्छ?",
+    "options_en": ["Convex", "Concave", "Cylindrical", "Bifocal"],
+    "options_np": ["उत्तल", "अवतल", "बेलनाकार", "बाइफोकल"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question_en": "Solve: 8 + 2 × 5 - 4",
+    "question_np": "हिसाब गर्नुहोस्: ८ + २ × ५ - ४",
+    "options_en": ["46", "14", "22", "12"],
+    "options_np": ["४६", "१४", "२२", "१२"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the cube root of 216?",
+    "question_np": "२१६ को घनमूल (Cube root) कति हो?",
+    "options_en": ["4", "6", "8", "9"],
+    "options_np": ["४", "६", "८", "९"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "The value of 10 to the power 0 is:",
+    "question_np": "१० को घाताङ्क ० (10^0) को मान कति हुन्छ?",
+    "options_en": ["0", "1", "10", "100"],
+    "options_np": ["०", "१", "१०", "१००"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "A triangle with all three sides equal is called:",
+    "question_np": "सबै भुजाहरू बराबर भएको त्रिभुजलाई के भनिन्छ?",
+    "options_en": ["Isosceles", "Equilateral", "Scalene", "Right-angled"],
+    "options_np": ["समद्विबाहु", "समबाहु", "विषमबाहु", "समकोण"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "If 5x = 45, what is the value of x?",
+    "question_np": "यदि ५x = ४५ भए, x को मान कति हुन्छ?",
+    "options_en": ["7", "8", "9", "10"],
+    "options_np": ["७", "८", "९", "१०"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Find the average of 10, 20, 30, and 40:",
+    "question_np": "१०, २०, ३० र ४० को औसत पत्ता लगाउनुहोस्:",
+    "options_en": ["20", "25", "30", "35"],
+    "options_np": ["२०", "२५", "३०", "३५"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "How many degrees are in a full circle?",
+    "question_np": "एउटा वृत्तमा कति डिग्री हुन्छ?",
+    "options_en": ["90°", "180°", "360°", "540°"],
+    "options_np": ["९०°", "१८०°", "३६०°", "५४०°"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the product of 0.5 and 0.5?",
+    "question_np": "०.५ र ०.५ को गुणनफल कति हुन्छ?",
+    "options_en": ["2.5", "0.25", "0.025", "0.5"],
+    "options_np": ["२.५", "०.२५", "०.०२५", "०.५"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "The sum of the interior angles of a quadrilateral is:",
+    "question_np": "चतुर्भुजका भित्री कोणहरूको योगफल कति हुन्छ?",
+    "options_en": ["180°", "270°", "360°", "450°"],
+    "options_np": ["१८०°", "२७०°", "३६०°", "४५०°"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "If a dozen eggs cost 120, what is the cost of 5 eggs?",
+    "question_np": "यदि एक दर्जन अण्डाको १२० पर्छ भने ५ वटा अण्डाको कति पर्छ?",
+    "options_en": ["50", "60", "70", "80"],
+    "options_np": ["५०", "६०", "७०", "८०"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Find the next number in sequence: 2, 4, 8, 16, ...",
+    "question_np": "क्रम पूरा गर्नुहोस्: २, ४, ८, १६, ...",
+    "options_en": ["20", "24", "32", "64"],
+    "options_np": ["२०", "२४", "३२", "६४"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Calculate: 10% of 500",
+    "question_np": "५०० को १०% कति हुन्छ?",
+    "options_en": ["5", "50", "55", "100"],
+    "options_np": ["५", "५०", "५५", "१००"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which of these is a prime number?",
+    "question_np": "तलका मध्ये कुन चाहिँ रुढ संख्या (Prime number) हो?",
+    "options_en": ["4", "9", "11", "15"],
+    "options_np": ["४", "९", "११", "१५"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the HCF of 12 and 18?",
+    "question_np": "१२ र १८ को महत्तम समापवर्तक (HCF) कति हो?",
+    "options_en": ["2", "3", "6", "36"],
+    "options_np": ["२", "३", "६", "३६"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "The perimeter of a rectangle with length 10m and breadth 5m is:",
+    "question_np": "१० मिटर लम्बाइ र ५ मिटर चौडाइ भएको आयतको घेरा (Perimeter) कति हुन्छ?",
+    "options_en": ["15m", "30m", "50m", "60m"],
+    "options_np": ["१५ मिटर", "३० मिटर", "५० मिटर", "६० मिटर"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question_en": "Choose the correct article: 'He is ___ honest man.'",
+    "question_np": "सही आर्टिकल छान्नुहोस्: 'He is ___ honest man.'",
+    "options_en": ["a", "an", "the", "no article"],
+    "options_np": ["a", "an", "the", "no article"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the plural of 'Foot'?",
+    "question_np": "'Foot' को बहुवचन के हो?",
+    "options_en": ["Foots", "Feet", "Feets", "Footes"],
+    "options_np": ["Foots", "Feet", "Feets", "Footes"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the feminine gender of 'King'?",
+    "question_np": "'King' को स्त्रीलिंग के हो?",
+    "options_en": ["Princess", "Queen", "Lady", "Woman"],
+    "options_np": ["राजकुमारी", "रानी", "लेडी", "महिला"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Select the antonym of 'Brave':",
+    "question_np": "'Brave' को विपरीत अर्थ दिने शब्द कुन हो?",
+    "options_en": ["Strong", "Coward", "Fearless", "Hero"],
+    "options_np": ["बलियो", "कायर", "डरपोक नभएको", "नायक"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Identify the verb in: 'Ram runs very fast.'",
+    "question_np": "'Ram runs very fast' मा क्रिया (verb) कुन हो?",
+    "options_en": ["Ram", "Runs", "Very", "Fast"],
+    "options_np": ["Ram", "Runs", "Very", "Fast"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Complete the idiom: 'Piece of ___' (meaning very easy).",
+    "question_np": "टुक्का पूरा गर्नुहोस्: 'Piece of ___'",
+    "options_en": ["Cake", "Bread", "Paper", "Sweet"],
+    "options_np": ["Cake", "Bread", "Paper", "Sweet"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Choose the correct spelling:",
+    "question_np": "सही हिज्जे छान्नुहोस्:",
+    "options_en": ["Calender", "Calendar", "Celendar", "Calander"],
+    "options_np": ["Calender", "Calendar", "Celendar", "Calander"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the past participle of 'Go'?",
+    "question_np": "'Go' को V3 रूप के हो?",
+    "options_en": ["Went", "Gone", "Going", "Goes"],
+    "options_np": ["Went", "Gone", "Going", "Goes"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which one is a pronoun?",
+    "question_np": "तलका मध्ये सर्वनाम कुन हो?",
+    "options_en": ["Sita", "Apple", "They", "Running"],
+    "options_np": ["Sita", "Apple", "They", "Running"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Fill in the blank: 'The sun ___ in the east.'",
+    "question_np": "खाली ठाउँ भर्नुहोस्: 'The sun ___ in the east.'",
+    "options_en": ["rise", "rises", "rising", "rose"],
+    "options_np": ["rise", "rises", "rising", "rose"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the synonym of 'Tiny'?",
+    "question_np": "'Tiny' को समानार्थी शब्द कुन हो?",
+    "options_en": ["Big", "Small", "Huge", "Cold"],
+    "options_np": ["ठूलो", "सानो", "विशाल", "चिसो"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which mark is used at the end of a question?",
+    "question_np": "प्रश्नको अन्त्यमा कुन चिन्ह प्रयोग गरिन्छ?",
+    "options_en": [".", ",", "?", "!"],
+    "options_np": [".", ",", "?", "!"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Select the correct adjective: 'Mount Everest is the ___ mountain.'",
+    "question_np": "सही विशेषण छान्नुहोस्:",
+    "options_en": ["High", "Higher", "Highest", "Highly"],
+    "options_np": ["High", "Higher", "Highest", "Highly"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Choose the correct preposition: 'The book is ___ the table.'",
+    "question_np": "सही प्रीपोजिसन छान्नुहोस्:",
+    "options_en": ["in", "at", "on", "into"],
+    "options_np": ["in", "at", "on", "into"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the plural of 'Mouse'?",
+    "question_np": "'Mouse' को बहुवचन के हो?",
+    "options_en": ["Mouses", "Mice", "Mices", "Mousey"],
+    "options_np": ["Mouses", "Mice", "Mices", "Mousey"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question_en": "Which part is the main memory of a computer?",
+    "question_np": "कम्प्युटरको मुख्य मेमोरी कुन हो?",
+    "options_en": ["Hard Disk", "Monitor", "RAM", "Keyboard"],
+    "options_np": ["हार्ड डिस्क", "मनिटर", "र्याम (RAM)", "किबोर्ड"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the shortcut for 'Saving' a file?",
+    "question_np": "फाइल 'सेभ' गर्ने सर्टकट के हो?",
+    "options_en": ["Ctrl + C", "Ctrl + P", "Ctrl + S", "Ctrl + V"],
+    "options_np": ["Ctrl + C", "Ctrl + P", "Ctrl + S", "Ctrl + V"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Who is considered the 'Father of Computer'?",
+    "question_np": "'कम्प्युटरका पिता' भनेर कसलाई चिनिन्छ?",
+    "options_en": ["Bill Gates", "Charles Babbage", "Alan Turing", "Steve Jobs"],
+    "options_np": ["बिल गेट्स", "चार्ल्स ब्याबेज", "एलन ट्युरिङ", "स्टिभ जब्स"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "1024 Kilobytes (KB) is equal to:",
+    "question_np": "१०२४ किलोबाइट (KB) बराबर कति हुन्छ?",
+    "options_en": ["1 MB", "1 GB", "1 TB", "1 Bit"],
+    "options_np": ["१ मेगाबाइट (MB)", "१ गीगाबाइट (GB)", "१ टेराबाइट (TB)", "१ बिट"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which is an output device?",
+    "question_np": "तलका मध्ये आउटपुट उपकरण कुन हो?",
+    "options_en": ["Mouse", "Scanner", "Printer", "Microphone"],
+    "options_np": ["माउस", "स्क्यानर", "प्रिन्टर", "माइक्रोफोन"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which of these is used to point and click?",
+    "question_np": "तलका मध्ये कुन उपकरण पोइन्ट र क्लिक गर्न प्रयोग गरिन्छ?",
+    "options_en": ["Keyboard", "Mouse", "Speaker", "UPS"],
+    "options_np": ["किबोर्ड", "माउस", "स्पिकर", "UPS"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What does PDF stand for?",
+    "question_np": "PDF को पूर्ण रूप के हो?",
+    "options_en": ["Portable Document Format", "Printed Data File", "Personal Document File", "Private Digital File"],
+    "options_np": ["Portable Document Format", "Printed Data File", "Personal Document File", "Private Digital File"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "What is the full form of LAN?",
+    "question_np": "LAN को पूर्ण रूप के हो?",
+    "options_en": ["Long Area Network", "Local Area Network", "Light Area Network", "Link Area Network"],
+    "options_np": ["Local Area Network", "Long Area Network", "Light Area Network", "Link Area Network"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which operating system is developed by Apple?",
+    "question_np": "एप्पल कम्पनीले विकास गरेको अपरेटिङ सिस्टम कुन हो?",
+    "options_en": ["Windows", "Android", "macOS", "Linux"],
+    "options_np": ["विन्डोज", "एन्ड्रोइड", "macOS", "लिनक्स"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the extension of an image file?",
+    "question_np": "फोटो (image) फाइलको एक्सटेन्सन कुन हो?",
+    "options_en": [".mp3", ".jpg", ".txt", ".mp4"],
+    "options_np": [".mp3", ".jpg", ".txt", ".mp4"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question_en": "What is the process of planting trees called?",
+    "question_np": "वृक्षारोपण गर्ने प्रक्रियालाई के भनिन्छ?",
+    "options_en": ["Deforestation", "Afforestation", "Erosion", "Mining"],
+    "options_np": ["वन विनाश", "वृक्षारोपण (Afforestation)", "भु-क्षय", "खानी उत्खनन"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which layer of atmosphere protects us from UV rays?",
+    "question_np": "वायुमण्डलको कुन तहले हामीलाई हानिकारक पराबैजनी किरणबाट बचाउँछ?",
+    "options_en": ["Oxygen layer", "Ozone layer", "Nitrogen layer", "Carbon layer"],
+    "options_np": ["अक्सिजन तह", "ओजोन तह", "नाइट्रोजन तह", "कार्बन तह"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which day is celebrated as World Environment Day?",
+    "question_np": "विश्व वातावरण दिवस कहिले मनाइन्छ?",
+    "options_en": ["June 5", "April 22", "May 1", "January 1"],
+    "options_np": ["जुन ५", "अप्रिल २२", "मे १", "जनवरी १"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which of these is a non-renewable energy source?",
+    "question_np": "तलका मध्ये कुन चाहिँ अनवीकरणीय ऊर्जा स्रोत हो?",
+    "options_en": ["Solar energy", "Wind energy", "Coal", "Water energy"],
+    "options_np": ["सौर्य ऊर्जा", "वायु ऊर्जा", "कोइला", "जल ऊर्जा"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Acid rain is caused by the pollution of which gases?",
+    "question_np": "अम्ल वर्षा कुन ग्यासहरूको प्रदूषणले गर्दा हुन्छ?",
+    "options_en": ["Oxygen and Nitrogen", "Sulfur Dioxide and Nitrogen Oxide", "Carbon Dioxide and Helium", "Methane and Argon"],
+    "options_np": ["अक्सिजन र नाइट्रोजन", "सल्फर डाइअक्साइड र नाइट्रोजन अक्साइड", "कार्बन डाइअक्साइड र हिलियम", "मिथेन र आर्गन"],
+    "correct_answer": 1
+  },
+
+  {
+    "question_en": "Which blood group is a universal recipient?",
+    "question_np": "सबैबाट रगत लिन सक्ने रक्त समूह कुन हो?",
+    "options_en": ["A", "B", "O", "AB positive"],
+    "options_np": ["A", "B", "O", "AB पोजिटिभ"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "How many players are in a football team on the pitch?",
+    "question_np": "फुटबलको एउटा टोलीमा मैदानभित्र कतिजना खेलाडी हुन्छन्?",
+    "options_en": ["9", "10", "11", "12"],
+    "options_np": ["९", "१०", "११", "१२"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which is the national bird of Nepal?",
+    "question_np": "नेपालको राष्ट्रिय चरा कुन हो?",
+    "options_en": ["Peacock", "Danphe", "Parrot", "Sparrow"],
+    "options_np": ["मजुर", "डाँफे", "सुगा", "भँगेरा"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the standard time of Nepal based on?",
+    "question_np": "नेपालको प्रमाणिक समय कुन हिमाललाई आधार मानी निर्धारण गरिएको छ?",
+    "options_en": ["Mt. Everest", "Gauri Shankar", "Annapurna", "Lhotse"],
+    "options_np": ["सगरमाथा", "गौरीशंकर", "अन्नपूर्ण", "ल्होत्से"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "How many days are in a week?",
+    "question_np": "एक हप्तामा कति दिन हुन्छन्?",
+    "options_en": ["6", "7", "8", "9"],
+    "options_np": ["६", "७", "८", "९"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which is the smallest country in the world?",
+    "question_np": "विश्वको सबैभन्दा सानो देश कुन हो?",
+    "options_en": ["Nepal", "Bhutan", "Vatican City", "Maldives"],
+    "options_np": ["नेपाल", "भुटान", "भ्याटिकन सिटी", "मालदिभ्स"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "In which direction does the sun set?",
+    "question_np": "सूर्य कुन दिशामा अस्ताउँछ?",
+    "options_en": ["North", "South", "East", "West"],
+    "options_np": ["उत्तर", "दक्षिण", "पूर्व", "पश्चिम"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "How many continents are there in the world?",
+    "question_np": "विश्वमा जम्मा कतिवटा महादेशहरू छन्?",
+    "options_en": ["5", "6", "7", "8"],
+    "options_np": ["५", "६", "७", "८"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which planet is known as the 'Blue Planet'?",
+    "question_np": "कुन ग्रहलाई 'नीलो ग्रह' भनिन्छ?",
+    "options_en": ["Mars", "Venus", "Earth", "Neptune"],
+    "options_np": ["मंगल", "शुक्र", "पृथ्वी", "वरुण"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which sense organ is used to smell?",
+    "question_np": "सुँघ्नका लागि कुन अङ्ग प्रयोग गरिन्छ?",
+    "options_en": ["Eye", "Ear", "Nose", "Tongue"],
+    "options_np": ["आँखा", "कान", "नाक", "जिब्रो"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Who wrote the play 'Romeo and Juliet'?",
+    "question_np": "'रोमियो एण्ड जुलियट' नाटक कसले लेखेका हुन्?",
+    "options_en": ["William Shakespeare", "Charles Dickens", "Leo Tolstoy", "Mark Twain"],
+    "options_np": ["विलियम शेक्सपियर", "चार्ल्स डिकेन्स", "लियो टोल्सटोय", "मार्क ट्वेन"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which metal is liquid at room temperature?",
+    "question_np": "कोठाको तापक्रममा तरल अवस्थामा रहने धातु कुन हो?",
+    "options_en": ["Iron", "Mercury", "Silver", "Aluminum"],
+    "options_np": ["फलाम", "पारो (Mercury)", "चाँदी", "आल्मुनियम"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the capital of the United States of America?",
+    "question_np": "अमेरिकाको राजधानी कहाँ हो?",
+    "options_en": ["New York", "Washington D.C.", "Los Angeles", "Chicago"],
+    "options_np": ["न्युयोर्क", "वासिङ्टन डि.सी.", "लस एन्जलस", "सिकागो"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which organ is responsible for breathing?",
+    "question_np": "श्वासप्रश्वासका लागि कुन अङ्ग जिम्मेवार छ?",
+    "options_en": ["Stomach", "Lungs", "Brain", "Heart"],
+    "options_np": ["पेट", "फोक्सो", "मस्तिष्क", "मुटु"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "How many hours are in two days?",
+    "question_np": "दुई दिनमा जम्मा कति घण्टा हुन्छन्?",
+    "options_en": ["24", "36", "48", "60"],
+    "options_np": ["२४", "३६", "४८", "६०"],
+    "correct_answer": 2
   }
-]
+  ]
+
+
+
+
+
+

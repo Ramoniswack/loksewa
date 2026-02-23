@@ -1,142 +1,702 @@
 [
   {
-    "question_en": "Which of the following is correct? 'The jury ___ reached a verdict.'",
-    "question_np": "कुन सही छ? 'The jury ___ reached a verdict.'",
-    "options_en": ["has", "have", "are", "were"],
-    "options_np": ["has", "have", "are", "were"],
+    "question_en": "Which article of the Constitution of Nepal 2072 mentions the 'Right to Clean Environment'?",
+    "question_np": "नेपालको संविधान २०७२ को कुन धारामा 'स्वच्छ वातावरणको हक' सम्बन्धी व्यवस्था छ?",
+    "options_en": ["Article 25", "Article 30", "Article 35", "Article 40"],
+    "options_np": ["धारा २५", "धारा ३०", "धारा ३५", "धारा ४०"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "In a legal context, what does the term 'Habeas Corpus' literally mean?",
+    "question_np": "कानूनी सन्दर्भमा 'बन्दी प्रत्यक्षीकरण' (Habeas Corpus) को शाब्दिक अर्थ के हुन्छ?",
+    "options_en": ["To produce the body", "Under the law", "Command of court", "Void from beginning"],
+    "options_np": ["शरीर उपस्थित गराउनु", "कानूनको मातहत", "अदालतको आदेश", "सुरुदेखि नै बदर"],
     "correct_answer": 0
   },
   {
-    "question_en": "Choose the correct sentence in the Subjunctive mood:",
-    "question_np": "Subjunctive mood मा सही वाक्य छान्नुहोस्:",
-    "options_en": ["I wish I was a king", "I wish I am a king", "I wish I were a king", "I wish I will be a king"],
-    "options_np": ["I wish I was a king", "I wish I am a king", "I wish I were a king", "I wish I will be a king"],
+    "question_en": "Which hormone is responsible for the 'Fight or Flight' response in humans?",
+    "question_np": "मानिसमा 'लड वा भाग' (Fight or Flight) प्रतिक्रियाका लागि कुन हर्मोन जिम्मेवार हुन्छ?",
+    "options_en": ["Insulin", "Adrenaline", "Thyroxine", "Estrogen"],
+    "options_np": ["इन्सुलिन", "एड्रेनालिन", "थाइरोक्सिन", "एस्ट्रोजेन"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the incubation period of the Rabies virus in humans typically?",
+    "question_np": "मानिसमा रेबिज भाइरसको 'इन्क्युबेसन पिरियड' सामान्यतया कति हुन्छ?",
+    "options_en": ["1-3 days", "1-3 weeks", "1-3 months", "1-3 years"],
+    "options_np": ["१-३ दिन", "१-३ हप्ता", "१-३ महिना", "१-३ वर्ष"],
     "correct_answer": 2
   },
   {
-    "question_en": "Fill in the blank: 'If I ___ you, I would accept the offer.'",
-    "question_np": "खाली ठाउँ भर्नुहोस्: 'If I ___ you, I would accept the offer.'",
-    "options_en": ["am", "was", "were", "had been"],
-    "options_np": ["am", "was", "were", "had been"],
+    "question_en": "Under the Nepal Civil Code, what is the minimum age for marriage with parental consent?",
+    "question_np": "नेपालको देवानी संहिता अनुसार, अभिभावकको मन्जुरीमा विवाह गर्ने न्यूनतम उमेर कति हो?",
+    "options_en": ["18 years", "20 years", "No minimum", "21 years"],
+    "options_np": ["१८ वर्ष", "२० वर्ष", "तोकिएको छैन", "२१ वर्ष"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which organ is primarily affected by the disease 'Glaucoma'?",
+    "question_np": "'ग्लुकोमा' (जलविन्दु) रोगले शरीरको कुन अङ्गलाई मुख्य रूपमा असर गर्छ?",
+    "options_en": ["Liver", "Lungs", "Eyes", "Kidneys"],
+    "options_np": ["कलेजो", "फोक्सो", "आँखा", "मृगौला"],
     "correct_answer": 2
   },
   {
-    "question_en": "What is the plural form of the word 'Criterion'?",
-    "question_np": "'Criterion' शब्दको बहुवचन रूप के हो?",
-    "options_en": ["Criterions", "Criteria", "Criterias", "Criteries"],
-    "options_np": ["Criterions", "Criteria", "Criterias", "Criteries"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "Choose the correct preposition: 'He died ___ cancer.'",
-    "question_np": "सही प्रीपोजिसन छान्नुहोस्: 'He died ___ cancer.'",
-    "options_en": ["from", "of", "with", "by"],
-    "options_np": ["from", "of", "with", "by"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "Identify the part of speech for 'fast' in: 'He ran fast.'",
-    "question_np": "'He ran fast' मा 'fast' कुन पद (part of speech) हो?",
-    "options_en": ["Adjective", "Noun", "Adverb", "Verb"],
-    "options_np": ["विशेषण", "संज्ञा", "क्रियाविशेषण", "क्रिया"],
+    "question_en": "Who has the authority to interpret the Constitution in Nepal?",
+    "question_np": "नेपालमा संविधानको अन्तिम व्याख्या गर्ने अधिकार कसलाई छ?",
+    "options_en": ["President", "Prime Minister", "Supreme Court", "Parliament"],
+    "options_np": ["राष्ट्रपति", "प्रधानमन्त्री", "सर्वोच्च अदालत", "संसद"],
     "correct_answer": 2
   },
   {
-    "question_en": "Select the correct option: 'Neither of the two candidates ___ fit.'",
-    "question_np": "सही विकल्प छान्नुहोस्: 'Neither of the two candidates ___ fit.'",
-    "options_en": ["is", "are", "were", "have"],
-    "options_np": ["is", "are", "were", "have"],
-    "correct_answer": 0
-  },
-  {
-    "question_en": "Complete the sentence: 'Hardly had I reached the station ___ the train left.'",
-    "question_np": "वाक्य पूरा गर्नुहोस्: 'Hardly had I reached the station ___ the train left.'",
-    "options_en": ["than", "then", "when", "that"],
-    "options_np": ["than", "then", "when", "that"],
+    "question_en": "Which vitamin is synthesized by the human body in the presence of sunlight?",
+    "question_np": "घामको किरणको उपस्थितिमा मानव शरीरले कुन भिटामिन बनाउँछ?",
+    "options_en": ["Vitamin B12", "Vitamin K", "Vitamin D", "Vitamin E"],
+    "options_np": ["भिटामिन B12", "भिटामिन K", "भिटामिन D", "भिटामिन E"],
     "correct_answer": 2
   },
   {
-    "question_en": "What is the feminine gender of 'Bachelor'?",
-    "question_np": "'Bachelor' को स्त्रीलिङ्ग के हो?",
-    "options_en": ["Bachelore", "Spinster", "Widow", "Lady"],
-    "options_np": ["Bachelore", "Spinster", "Widow", "Lady"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "Choose the correct tag question: 'Let's go for a walk, ___?'",
-    "question_np": "सही tag question छान्नुहोस्: 'Let's go for a walk, ___?'",
-    "options_en": ["shall we", "don't we", "will we", "can we"],
-    "options_np": ["shall we", "don't we", "will we", "can we"],
-    "correct_answer": 0
-  },
-  {
-    "question_en": "Fill in the blank: 'The news ___ true.'",
-    "question_np": "खाली ठाउँ भर्नुहोस्: 'The news ___ true.'",
-    "options_en": ["is", "are", "were", "have been"],
-    "options_np": ["is", "are", "were", "have been"],
-    "correct_answer": 0
-  },
-  {
-    "question_en": "Which one is a 'Gerund'?",
-    "question_np": "कुन चाहिँ 'Gerund' हो?",
-    "options_en": ["To sleep", "Sleeping is good", "He is sleeping", "Slept"],
-    "options_np": ["To sleep", "Sleeping is good", "He is sleeping", "Slept"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "What is the passive voice of 'Who did this?'",
-    "question_np": "'Who did this?' को passive voice के हुन्छ?",
-    "options_en": ["Who was this done by?", "By whom was this done?", "This was done by whom?", "Who had done this?"],
-    "options_np": ["Who was this done by?", "By whom was this done?", "This was done by whom?", "Who had done this?"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "Select the correct word: 'Mathematics ___ a difficult subject.'",
-    "question_np": "सही शब्द छान्नुहोस्: 'Mathematics ___ a difficult subject.'",
-    "options_en": ["is", "are", "were", "be"],
-    "options_np": ["is", "are", "were", "be"],
-    "correct_answer": 0
-  },
-  {
-    "question_en": "Choose the correct article: 'He is ___ university student.'",
-    "question_np": "सही आर्टिकल छान्नुहोस्: 'He is ___ university student.'",
-    "options_en": ["a", "an", "the", "no article"],
-    "options_np": ["a", "an", "the", "कुनै आर्टिकल छैन"],
-    "correct_answer": 0
-  },
-  {
-    "question_en": "Identify the error: 'The cattle is grazing in the field.'",
-    "question_np": "गल्ती पत्ता लगाउनुहोस्: 'The cattle is grazing in the field.'",
-    "options_en": ["The cattle", "is", "grazing", "in the field"],
-    "options_np": ["The cattle", "is", "grazing", "in the field"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "What is the synonym of 'Prudent'?",
-    "question_np": "'Prudent' को समानार्थी शब्द के हो?",
-    "options_en": ["Careless", "Wise", "Foolish", "Quick"],
-    "options_np": ["लापरवाह", "चलाख/बुद्धिमान", "मूर्ख", "छिटो"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "Correct the sentence: 'He is senior ___ me.'",
-    "question_np": "वाक्य सही बनाउनुहोस्: 'He is senior ___ me.'",
-    "options_en": ["than", "from", "to", "by"],
-    "options_np": ["than", "from", "to", "by"],
+    "question_en": "What is the biological name of the human 'kneecap'?",
+    "question_np": "मानव 'घुँडाको कचौरा' को जैविक नाम के हो?",
+    "options_en": ["Femur", "Tibia", "Patella", "Fibula"],
+    "options_np": ["फिमर", "टिबिया", "पटेला", "फिबुला"],
     "correct_answer": 2
   },
   {
-    "question_en": "What is the past tense of 'Lie' (meaning to rest)?",
-    "question_np": "'Lie' (आराम गर्नु) को भूतकाल के हो?",
-    "options_en": ["Lied", "Lay", "Lain", "Lying"],
-    "options_np": ["Lied", "Lay", "Lain", "Lying"],
+    "question_en": "How many schedules are there in the Constitution of Nepal 2072?",
+    "question_np": "नेपालको संविधान २०७२ मा कतिवटा अनुसूचीहरू छन्?",
+    "options_en": ["7", "8", "9", "10"],
+    "options_np": ["७", "८", "९", "१०"],
+    "correct_answer": 2
+  },
+ 
+  {
+    "question_en": "What is the escape velocity of Earth?",
+    "question_np": "पृथ्वीको 'पलायन वेग' (Escape Velocity) कति हो?",
+    "options_en": ["9.8 km/s", "11.2 km/s", "7.9 km/s", "15.5 km/s"],
+    "options_np": ["९.८ किमी/से", "११.२ किमी/से", "७.९ किमी/से", "१५.५ किमी/से"],
     "correct_answer": 1
   },
   {
-    "question_en": "Which of these is a 'Reflexive Pronoun'?",
-    "question_np": "यी मध्ये कुन 'Reflexive Pronoun' हो?",
-    "options_en": ["I", "Me", "Myself", "My"],
-    "options_np": ["I", "Me", "Myself", "My"],
+    "question_en": "Which of the following has the highest frequency?",
+    "question_np": "तलका मध्ये कुनको आवृत्ति (Frequency) सबैभन्दा बढी हुन्छ?",
+    "options_en": ["Radio waves", "Infrared", "Gamma rays", "Visible light"],
+    "options_np": ["रेडियो तरंग", "इन्फ्रारेड", "गामा किरण", "दृश्य प्रकाश"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the main constituent of LPG (Liquefied Petroleum Gas)?",
+    "question_np": "एलपी ग्यास (LPG) को मुख्य घटक कुन हो?",
+    "options_en": ["Methane", "Ethane", "Propane and Butane", "Hydrogen"],
+    "options_np": ["मिथेन", "इथेन", "प्रोपेन र ब्युटेन", "हाइड्रोजन"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the phenomenon behind the twinkling of stars?",
+    "question_np": "ताराहरू टिमटिमाउनुको पछाडि कुन वैज्ञानिक कारण छ?",
+    "options_en": ["Reflection", "Atmospheric Refraction", "Scattering", "Total Internal Reflection"],
+    "options_np": ["परावर्तन", "वायुमण्डलीय आवर्तन", "प्रसारण", "पूर्ण आन्तरिक परावर्तन"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which element has the highest electronegativity?",
+    "question_np": "सबैभन्दा बढी 'इलेक्ट्रोनेगेटिभिटी' भएको तत्व कुन हो?",
+    "options_en": ["Oxygen", "Fluorine", "Chlorine", "Nitrogen"],
+    "options_np": ["अक्सिजन", "फ्लोरिन", "क्लोरिन", "नाइट्रोजन"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the chemical name of Aspirin?",
+    "question_np": "'एस्पिरिन' को रासायनिक नाम के हो?",
+    "options_en": ["Sodium bicarbonate", "Acetylsalicylic acid", "Magnesium hydroxide", "Methyl salicylate"],
+    "options_np": ["सोडियम बाइकार्बोनेट", "एसिटाइलसालिसिलिक एसिड", "म्याग्नेसियम हाइड्रोक्साइड", "मिथाइल सालिसिलेट"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which gas is known as the 'Laughing Gas'?",
+    "question_np": "कुन ग्यासलाई 'लाफिङ ग्यास' भनिन्छ?",
+    "options_en": ["Nitric oxide", "Nitrous oxide", "Nitrogen dioxide", "Ammonia"],
+    "options_np": ["नाइट्रिक अक्साइड", "नाइट्रस अक्साइड", "नाइट्रोजन डाइअक्साइड", "अमोनिया"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the unit of Radioactivity?",
+    "question_np": "रेडियोधर्मीता (Radioactivity) को एकाइ के हो?",
+    "options_en": ["Candela", "Becquerel", "Tesla", "Weber"],
+    "options_np": ["क्यान्डेला", "बेकुरेल", "टेस्ला", "वेबर"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "In a nuclear reactor, what is used as a moderator?",
+    "question_np": "आणविक रियाक्टरमा 'मोडरेटर' को रूपमा के प्रयोग गरिन्छ?",
+    "options_en": ["Uranium", "Heavy Water", "Lead", "Iron"],
+    "options_np": ["युरेनियम", "गह्रौँ पानी (Heavy Water)", "सिसा", "फलाम"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which principle explains how an airplane flies?",
+    "question_np": "हवाईजहाज कसरी उड्छ भन्ने कुरा कुन सिद्धान्तले व्याख्या गर्छ?",
+    "options_en": ["Archimedes' Principle", "Bernoulli's Principle", "Pascal's Law", "Hooke's Law"],
+    "options_np": ["आर्किमिडिजको सिद्धान्त", "बर्नौलीको सिद्धान्त", "पास्कलको नियम", "हुकको नियम"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question_en": "If a father is 3 times as old as his son, and in 12 years he will be twice as old, how old is the son now?",
+    "question_np": "यदि बुबा छोरा भन्दा ३ गुणा जेठो छन् र १२ वर्षपछि बुबा छोरा भन्दा दोब्बर जेठो हुनेछन् भने छोराको वर्तमान उमेर कति हो?",
+    "options_en": ["10", "12", "15", "18"],
+    "options_np": ["१०", "१२", "१५", "१८"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "A train 150m long is running at 54 km/h. How much time will it take to cross a pole?",
+    "question_np": "१५० मिटर लामो रेल ५४ किमी/घण्टाको गतिमा गुडिरहेको छ। यसले एउटा खम्बा पार गर्न कति समय लगाउँला?",
+    "options_en": ["8 seconds", "10 seconds", "12 seconds", "15 seconds"],
+    "options_np": ["८ सेकेन्ड", "१० सेकेन्ड", "१२ सेकेन्ड", "१५ सेकेन्ड"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the smallest number which when divided by 4, 6, and 8 leaves a remainder of 3 in each case?",
+    "question_np": "४, ६ र ८ ले भाग गर्दा प्रत्येक अवस्थामा ३ शेष रहने सबैभन्दा सानो संख्या कुन हो?",
+    "options_en": ["21", "24", "27", "30"],
+    "options_np": ["२१", "२४", "२७", "३०"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "If the length of a rectangle is increased by 20% and breadth decreased by 20%, what is the net change in area?",
+    "question_np": "यदि आयतको लम्बाइ २०% ले बढाइयो र चौडाइ २०% ले घटाइयो भने क्षेत्रफलमा कस्तो परिवर्तन हुन्छ?",
+    "options_en": ["No change", "4% decrease", "4% increase", "2% decrease"],
+    "options_np": ["केही परिवर्तन हुँदैन", "४% घट्छ", "४% बढ्छ", "२% घट्छ"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the value of log₁₀ 1000?",
+    "question_np": "log₁₀ १००० को मान कति हुन्छ?",
+    "options_en": ["1", "2", "3", "10"],
+    "options_np": ["१", "२", "३", "१०"],
+    "correct_answer": 2
+  },
+  
+  {
+    "question_en": "Which is the largest landlocked country in the world?",
+    "question_np": "विश्वको सबैभन्दा ठूलो भूपरिवेष्ठित देश कुन हो?",
+    "options_en": ["Mongolia", "Kazakhstan", "Chad", "Nepal"],
+    "options_np": ["मंगोलिया", "काजाकिस्तान", "चाड", "नेपाल"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "In which year did the French Revolution begin?",
+    "question_np": "फ्रान्सेली क्रान्ति कुन वर्ष सुरु भएको थियो?",
+    "options_en": ["1776", "1789", "1804", "1815"],
+    "options_np": ["१७७६", "१७८९", "१८०४", "१८१५"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which desert is located in both Chile and Peru?",
+    "question_np": "चिली र पेरु दुवै देशमा फैलिएको मरुभूमि कुन हो?",
+    "options_en": ["Sahara", "Gobi", "Atacama", "Kalahari"],
+    "options_np": ["सहारा", "गोबी", "आटाकामा", "कालाहारी"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Who was the first female Prime Minister in the world?",
+    "question_np": "विश्वको पहिलो महिला प्रधानमन्त्री को हुन्?",
+    "options_en": ["Margaret Thatcher", "Indira Gandhi", "Sirimavo Bandaranaike", "Golda Meir"],
+    "options_np": ["मार्गरेट थ्याचर", "इन्दिरा गान्धी", "सिरिमाभो बन्दरानाइके", "गोल्डा मेर"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "The 'Dark Continent' refers to which continent?",
+    "question_np": "'कालो महादेश' भनेर कुन महादेशलाई चिनिन्छ?",
+    "options_en": ["Asia", "Africa", "South America", "Australia"],
+    "options_np": ["एशिया", "अफ्रिका", "दक्षिण अमेरिका", "अष्ट्रेलिया"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question_en": "What is the square of 15?",
+    "question_np": "१५ को वर्ग (Square) कति हुन्छ?",
+    "options_en": ["125", "225", "325", "425"],
+    "options_np": ["१२५", "२२५", "३२५", "४२५"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Calculate: 100 - (20 + 30)",
+    "question_np": "हिसाब गर्नुहोस्: १०० - (२० + ३०)",
+    "options_en": ["50", "60", "70", "80"],
+    "options_np": ["५०", "६०", "७०", "८०"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which number is even?",
+    "question_np": "तलका मध्ये जोर संख्या कुन हो?",
+    "options_en": ["3", "5", "7", "8"],
+    "options_np": ["३", "५", "७", "८"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "How many sides does a pentagon have?",
+    "question_np": "पञ्चभुज (Pentagon) मा कतिवटा भुजाहरू हुन्छन्?",
+    "options_en": ["4", "5", "6", "8"],
+    "options_np": ["४", "५", "६", "८"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is 1/2 of 1000?",
+    "question_np": "१००० को आधा (१/२) कति हुन्छ?",
+    "options_en": ["200", "500", "750", "100"],
+    "options_np": ["२००", "५००", "७५०", "१००"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question_en": "Which of these is the strongest acid?",
+    "question_np": "तलका मध्ये सबैभन्दा शक्तिशाली अम्ल (Acid) कुन हो?",
+    "options_en": ["HCl", "H2SO4", "HNO3", "HClO4"],
+    "options_np": ["HCl", "H2SO4", "HNO3", "HClO4"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "What happens to the weight of an object when it is taken to the center of the Earth?",
+    "question_np": "कुनै वस्तुलाई पृथ्वीको केन्द्रमा लैजाँदा त्यसको तौल के हुन्छ?",
+    "options_en": ["Increases", "Decreases slightly", "Becomes zero", "Remains same"],
+    "options_np": ["बढ्छ", "थोरै घट्छ", "शून्य हुन्छ", "उस्तै रहन्छ"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which catalyst is used in the Haber process for manufacturing Ammonia?",
+    "question_np": "अमोनिया बनाउने 'हाबेर विधि' मा कुन उत्प्रेरक (Catalyst) प्रयोग गरिन्छ?",
+    "options_en": ["Platinum", "Nickel", "Iron", "Vanadium pentoxide"],
+    "options_np": ["प्लेटिनम", "निखेल", "फलाम", "भानाडियम पेन्टाअक्साइड"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "The value of 'G' (Universal Gravitational Constant) is approximately:",
+    "question_np": "गुरुत्वाकर्षणको विश्वव्यापी स्थिर अङ्क 'G' को मान कति हुन्छ?",
+    "options_en": ["9.8 m/s²", "6.67 x 10⁻¹¹ Nm²/kg²", "6.4 x 10⁶ m", "3 x 10⁸ m/s"],
+    "options_np": ["९.८ m/s²", "६.६७ x १०⁻¹¹ Nm²/kg²", "६.४ x १०⁶ m", "३ x १०⁸ m/s"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which color of light deviates the most when passing through a prism?",
+    "question_np": "प्रिज्मबाट गुज्रँदा कुन रङ्गको प्रकाश सबैभन्दा बढी बाङ्गिन्छ?",
+    "options_en": ["Red", "Yellow", "Green", "Violet"],
+    "options_np": ["रातो", "पहेंलो", "हरियो", "बैजनी"],
+    "correct_answer": 3
+  },
+  
+  {
+    "question_en": "Which country is the newest member of the United Nations (UN)?",
+    "question_np": "संयुक्त राष्ट्र संघ (UN) को सबैभन्दा कान्छो सदस्य देश कुन हो?",
+    "options_en": ["East Timor", "Montenegro", "South Sudan", "Switzerland"],
+    "options_np": ["पूर्वी टिमोर", "मोन्टेनेग्रो", "दक्षिण सुडान", "स्विट्जरल्याण्ड"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Where is the headquarters of Interpol located?",
+    "question_np": "इन्टरपोलको मुख्यालय कहाँ छ?",
+    "options_en": ["Vienna", "Lyon", "Geneva", "Brussels"],
+    "options_np": ["भियना", "लियोन", "जेनेभा", "ब्रसेल्स"],
+    "correct_answer": 1
+  },
+
+
+  {
+    "question_en": "Which part of the nephron is primarily responsible for the concentration of urine through the countercurrent multiplier system?",
+    "question_np": "मिर्गौलाको नेफ्रोनको कुन भागले पिसाबलाई गाढा बनाउन 'काउन्टरकरेन्ट मल्टिप्लायर' प्रणाली सञ्चालन गर्छ?",
+    "options_en": ["Proximal Convoluted Tubule", "Loop of Henle", "Distal Convoluted Tubule", "Bowman's Capsule"],
+    "options_np": ["प्रोक्सिमल कन्भोल्युटेड ट्युबुल", "लुप अफ हेन्ले", "डिजिटल कन्भोल्युटेड ट्युबुल", "बोमन्स क्याप्सुल"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which immunoglobulin is the first to be secreted in response to an initial infection?",
+    "question_np": "कुनै पनि संक्रमण हुँदा शरीरले सबैभन्दा पहिले कुन 'इम्युनोग्लोबुलिन' उत्पादन गर्छ?",
+    "options_en": ["IgG", "IgA", "IgM", "IgE"],
+    "options_np": ["IgG", "IgA", "IgM", "IgE"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "The 'Islets of Langerhans' are found in which organ?",
+    "question_np": "'आइलेट्स अफ ल्याङ्गरह्यान्स' शरीरको कुन अङ्गमा पाइन्छ?",
+    "options_en": ["Liver", "Spleen", "Pancreas", "Pituitary gland"],
+    "options_np": ["कलेजो", "प्लीहा (Spleen)", "अग्न्याशय (Pancreas)", "पिट्युटरी ग्रन्थी"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the primary cause of Pernicious Anemia?",
+    "question_np": "'पर्निसियस एनेमिया' को मुख्य कारण के हो?",
+    "options_en": ["Iron deficiency", "Vitamin B12 deficiency", "Folic acid deficiency", "Vitamin C deficiency"],
+    "options_np": ["फलामको कमी", "भिटामिन B12 को कमी", "फोलिक एसिडको कमी", "भिटामिन C को कमी"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question_en": "In networking, which layer of the OSI model is responsible for routing data packets?",
+    "question_np": "नेटवर्किङमा, OSI मोडलको कुन तहले 'डेटा प्याकेट' राउटिङ गर्ने काम गर्छ?",
+    "options_en": ["Data Link Layer", "Network Layer", "Transport Layer", "Session Layer"],
+    "options_np": ["डेटा लिङ्क लेयर", "नेटवर्क लेयर", "ट्रान्सपोर्ट लेयर", "सेसन लेयर"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which scheduling algorithm in OS can lead to starvation?",
+    "question_np": "अपेरेटिङ सिस्टमको कुन अल्गोरिदममा 'स्टारभेसन' (Starvation) हुने सम्भावना हुन्छ?",
+    "options_en": ["Round Robin", "First Come First Serve", "Priority Scheduling", "Shortest Job First (SJF)"],
+    "options_np": ["राउण्ड रोबिन", "FCFS", "प्रायोरिटी सेड्युलिङ", "SJF"],
+    "correct_answer": 2
+  },
+  
+  {
+    "question_en": "Under the 'Muluki Criminal Code' of Nepal, what is the maximum sentence for life imprisonment for heinous crimes (like cold-blooded murder)?",
+    "question_np": "नेपालको 'मुलुकी अपराध संहिता' अनुसार क्रुर हत्या जस्ता जघन्य अपराधमा कति वर्ष जेल सजाय हुने व्यवस्था छ?",
+    "options_en": ["20 years", "25 years", "30 years", "Life (until death)"],
+    "options_np": ["२० वर्ष", "२५ वर्ष", "३० वर्ष", "जीवित रहेसम्म"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "What is the legal term for a written statement confirmed by oath, used as evidence in court?",
+    "question_np": "अदालतमा प्रमाणको रूपमा प्रयोग गरिने शपथ खुवाइएको लिखित बयानलाई के भनिन्छ?",
+    "options_en": ["Subpoena", "Affidavit", "Summon", "Writ"],
+    "options_np": ["सब्पोना", "शपथपत्र (Affidavit)", "म्याद", "रिट"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which organ of the UN can pass binding resolutions on its members?",
+    "question_np": "संयुक्त राष्ट्र संघको कुन अङ्गले सदस्य राष्ट्रहरूका लागि बाध्यकारी निर्णयहरू गर्न सक्छ?",
+    "options_en": ["General Assembly", "Security Council", "Secretariat", "Trusteeship Council"],
+    "options_np": ["महासभा", "सुरक्षा परिषद्", "सचिवालय", "ट्रस्टीशिप काउन्सिल"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question_en": "Which 1648 treaty is credited with establishing the modern concept of 'State Sovereignty'?",
+    "question_np": "सन् १६४८ को कुन सन्धिले 'राज्यको सार्वभौमिकता' को आधुनिक अवधारणा स्थापना गरेको मानिन्छ?",
+    "options_en": ["Treaty of Versailles", "Treaty of Westphalia", "Treaty of Utrecht", "Treaty of Paris"],
+    "options_np": ["भर्सायल्सको सन्धि", "वेस्टफालियाको सन्धि", "यूट्रेक्टको सन्धि", "पेरिसको सन्धि"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "The 'Geneva Conventions' are primarily concerned with what?",
+    "question_np": "'जेनेभा महासन्धि' (Geneva Conventions) मुख्यतया के कुरासँग सम्बन्धित छ?",
+    "options_en": ["Trade", "Human Rights in War", "Environment", "Space exploration"],
+    "options_np": ["व्यापार", "युद्धमा मानव अधिकार", "वातावरण", "अन्तरिक्ष अन्वेषण"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which international body is known as the 'World's Parliament'?",
+    "question_np": "कुन अन्तर्राष्ट्रिय निकायलाई 'विश्वको संसद' भनेर चिनिन्छ?",
+    "options_en": ["UN Security Council", "UN General Assembly", "International Court of Justice", "World Bank"],
+    "options_np": ["सुरक्षा परिषद्", "महासभा", "अन्तर्राष्ट्रिय अदालत", "विश्व बैंक"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question_en": "During DNA replication, which enzyme is responsible for joining Okazaki fragments on the lagging strand?",
+    "question_np": "DNA रेप्लिकेसनको समयमा 'ओकाजाकी फ्र्यागमेन्ट' हरूलाई जोड्न कुन इन्जाइमले काम गर्छ?",
+    "options_en": ["Helicase", "DNA Polymerase", "DNA Ligase", "Primase"],
+    "options_np": ["हेलिकेज", "DNA पोलिमरेज", "DNA लाइगेज", "प्राइमेज"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which type of genetic mutation results in a premature 'Stop Codon'?",
+    "question_np": "कुन प्रकारको आनुवंशिक उत्परिवर्तन (Mutation) ले समय अगावै 'स्टप कोडोन' सिर्जना गर्छ?",
+    "options_en": ["Silent Mutation", "Missense Mutation", "Nonsense Mutation", "Frameshift Mutation"],
+    "options_np": ["साइलेन्ट म्युटेसन", "मिससेन्स म्युटेसन", "ननसेन्स म्युटेसन", "फ्रेमसिफ्ट म्युटेसन"],
+    "correct_answer": 2
+  },
+  
+  {
+    "question_en": "If the price of a good increases and the total revenue also increases, the demand for that good is:",
+    "question_np": "यदि कुनै वस्तुको मूल्य बढ्दा कुल आम्दानी (Total Revenue) पनि बढ्छ भने, उक्त वस्तुको माग कस्तो हुन्छ?",
+    "options_en": ["Elastic", "Inelastic", "Unitary Elastic", "Perfectly Elastic"],
+    "options_np": ["लचिलो (Elastic)", "बेलाचिलो (Inelastic)", "एकाइ लचिलो", "पूर्ण लचिलो"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "The 'Gini Coefficient' is a standard measure used to calculate what?",
+    "question_np": "'गिनी गुणाङ्क' (Gini Coefficient) ले के मापन गर्छ?",
+    "options_en": ["Inflation", "Unemployment", "Income Inequality", "GDP Growth"],
+    "options_np": ["मुद्रास्फीति", "बेरोजगारी", "आयको असमानता", "कुल गार्हस्थ उत्पादन"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "A clock loses 10 minutes every 24 hours. If it is set right at 8:00 AM on Monday, what time will it show at 8:00 AM on the following Monday?",
+    "question_np": "एउटा घडीले प्रत्येक २४ घण्टामा १० मिनेट ढिलो समय देखाउँछ। यदि सोमबार बिहान ८ बजे मिलाइएको हो भने, अर्को सोमबार बिहान ८ बजे उक्त घडीले कति समय देखाउला?",
+    "options_en": ["6:50 AM", "7:00 AM", "6:10 AM", "7:10 AM"],
+    "options_np": ["६:५० बजे", "७:०० बजे", "६:१० बजे", "७:१० बजे"],
+    "correct_answer": 0
+  },
+  {
+    "question": "Which of the following sentences contains a 'Dangling Participle'?",
+    "options": [
+      "Walking down the street, the trees were beautiful.",
+      "Having finished the book, I went to sleep.",
+      "While running, he lost his keys.",
+      "To win the race, one must practice."
+    ],
+    "correct_answer": 0,
+    "explanation": "In option A, the trees aren't walking down the street. The modifier lacks a proper subject."
+  },
+  {
+    "question": "What is the term for a word that is spelled the same as another but has a different sound and meaning (e.g., 'Lead' as a metal vs 'Lead' as to guide)?",
+    "options": ["Homophone", "Heteronym", "Synonym", "Antonym"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Why does a piece of iron feel colder than a piece of wood at the same low temperature?",
+    "question_np": "एउटै न्यून तापक्रममा फलामको टुक्रा काठको टुक्रा भन्दा किन चिसो महसुस हुन्छ?",
+    "options_en": ["Iron has lower density", "Iron is a better conductor of heat", "Wood has higher specific heat", "Iron reflects more light"],
+    "options_np": ["फलामको घनत्व कम हुन्छ", "फलाम तापको राम्रो सुचालक हो", "काठको विशिष्ट ताप क्षमता बढी हुन्छ", "फलामले बढी प्रकाश परावर्तन गर्छ"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which part of the brain controls involuntary actions like heartbeat and breathing?",
+    "question_np": "मस्तिष्कको कुन भागले मुटुको धड्कन र श्वासप्रश्वास जस्ता अनैच्छिक कार्यहरू नियन्त्रण गर्छ?",
+    "options_en": ["Cerebrum", "Cerebellum", "Medulla Oblongata", "Thalamus"],
+    "options_np": ["सेरेब्रम", "सेरेबेलम", "मेड्युला अब्लोंगाटा", "थालामस"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What happens to the focal length of a convex lens when it is immersed in water?",
+    "question_np": "कन्भेक्स लेन्सलाई पानीमा डुबाउँदा त्यसको केन्द्रीकरण दूरी (Focal length) मा के परिवर्तन आउँछ?",
+    "options_en": ["Increases", "Decreases", "Remains same", "Becomes zero"],
+    "options_np": ["बढ्छ", "घट्छ", "उस्तै रहन्छ", "शून्य हुन्छ"],
+    "correct_answer": 0
+  },
+  {
+    "question": "'म घर जान्छु' वाक्यलाई कर्मवाच्यमा लैजाँदा कुन सही हुन्छ?",
+    "options": ["मद्वारा घर जाइन्छ", "म घर गइन्छु", "मबाट घर गइन्छ", "मैले घर जानुपर्छ"],
+    "correct_answer": 2
+  },
+  {
+    "question": "नेपाली साहित्यमा 'आदिकवि' भन्नाले कसलाई चिनिन्छ?",
+    "options": ["लक्ष्मीप्रसाद देवकोटा", "मोतीराम भट्ट", "भानुभक्त आचार्य", "लेखनाथ पौडेल"],
+    "correct_answer": 2
+  },
+  {
+    "question": "तलका मध्ये कुन शब्द 'शुद्ध' छ?",
+    "options": ["आशिर्वाद", "आशीर्वाद", "असिर्वाद", "आर्सिवाद"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "The principle of 'Stare Decisis' refers to:",
+    "question_np": "'स्टारे डिसिसिस' (Stare Decisis) को सिद्धान्तले के बुझाउँछ?",
+    "options_en": ["Equality before law", "Following judicial precedents", "Right to appeal", "Trial by jury"],
+    "options_np": ["कानूनको अगाडि समानता", "अदालती नजिरहरूको पालना", "पुनरावेदनको हक", "ज्युरीद्वारा परीक्षण"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the minimum age to be appointed as a Judge of the Supreme Court of Nepal?",
+    "question_np": "नेपालको सर्वोच्च अदालतको न्यायाधीश हुन न्यूनतम कति उमेर हुनुपर्छ?",
+    "options_en": ["35 years", "40 years", "45 years", "No minimum age mentioned"],
+    "options_np": ["३५ वर्ष", "४० वर्ष", "४५ वर्ष", "न्यूनतम उमेर तोकिएको छैन"],
+    "correct_answer": 3,
+    "explanation_en": "The Constitution specifies experience/qualification but not a specific minimum entry age, though one must retire at 65."
+  },
+  {
+    "question_en": "Which legal writ is issued to quash the decision of a lower court or tribunal?",
+    "question_np": "तल्लो अदालत वा निकायको निर्णय बदर गर्न कुन रिट जारी गरिन्छ?",
+    "options_en": ["Mandamus", "Certiorari", "Quo-Warranto", "Prohibition"],
+    "options_np": ["परमादेश", "उत्प्रेषण", "अधिकारपृच्छा", "प्रतिषेध"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question": "'नेपाली' शब्दमा कुन प्रत्यय लागेको छ?",
+    "options": ["इ", "ई", "ली", "आली"],
+    "correct_answer": 1
+  },
+  {
+    "question": "'हात धुनु' मुहावराको अर्थ के हो?",
+    "options": ["सफा हुनु", "आशा मार्नु वा गुमाउनु", "मेहेनत गर्नु", "पानी खेल्नु"],
+    "correct_answer": 1
+  },
+  {
+    "question": "तलका मध्ये कुन चाहिँ 'नामयोगी' शब्द हो?",
+    "options": ["र", "मुनि", "बिस्तारै", "स्याबास"],
+    "correct_answer": 1
+  },
+  {
+    "question": "'मुनामदन' खण्डकाव्यका लेखक को हुन्?",
+    "options": ["लक्ष्मीप्रसाद देवकोटा", "भानुभक्त आचार्य", "माधवप्रसाद घिमिरे", "सिद्धचरण श्रेष्ठ"],
+    "correct_answer": 0
+  },
+  {
+    "question": "'खायो' शब्दको उच्च आदरार्थी रूप के हुन्छ?",
+    "options": ["खाए", "खानुभयो", "जिउनुभयो", "बक्सियो"],
+    "correct_answer": 1
+  },
+  {
+    "question": "तलका मध्ये कुन शब्दको अर्थ 'शत्रु' हुन्छ?",
+    "options": ["अरि", "भानु", "शशि", "अनिल"],
+    "correct_answer": 0
+  },
+  {
+    "question": "नेपालको राष्ट्रकवि भनेर कसलाई चिनिन्छ?",
+    "options": ["लेखनाथ पौडेल", "माधवप्रसाद घिमिरे", "बालकृष्ण सम", "लक्ष्मीप्रसाद देवकोटा"],
+    "correct_answer": 1
+  },
+  
+  {
+    "question_en": "Which law states that 'Pressure is inversely proportional to Volume at constant temperature'?",
+    "question_np": "स्थिर तापक्रममा 'चाप आयतनसँग व्युत्क्रमानुपातिक हुन्छ' भन्ने कुन नियम हो?",
+    "options_en": ["Charles's Law", "Boyle's Law", "Avogadro's Law", "Newton's Law"],
+    "options_np": ["चार्ल्सको नियम", "बोयलको नियम", "एभोगाड्रोको नियम", "न्युटनको नियम"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the primary function of Ribosomes in a cell?",
+    "question_np": "कोशिकामा 'राइबोजोम' को मुख्य कार्य के हो?",
+    "options_en": ["Energy production", "Protein synthesis", "Waste disposal", "Lipid storage"],
+    "options_np": ["शक्ति उत्पादन", "प्रोटिन संश्लेषण", "फोहोर विसर्जन", "चिल्लो पदार्थ भण्डारण"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which element is the most abundant in the Earth's crust?",
+    "question_np": "पृथ्वीको क्रस्टमा सबैभन्दा बढी मात्रामा पाइने तत्व कुन हो?",
+    "options_en": ["Iron", "Silicon", "Oxygen", "Aluminum"],
+    "options_np": ["फलाम", "सिलिकन", "अक्सिजन", "अल्युमिनियम"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the frequency of AC current used in Nepal?",
+    "question_np": "नेपालमा प्रयोग गरिने AC विद्युतको आवृत्ति (Frequency) कति हुन्छ?",
+    "options_en": ["40 Hz", "50 Hz", "60 Hz", "100 Hz"],
+    "options_np": ["४० हर्ज", "५० हर्ज", "६० हर्ज", "१०० हर्ज"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which gas is evolved when a metal reacts with dilute acid?",
+    "question_np": "धातुले फिक्का अम्लसँग प्रतिक्रिया गर्दा कुन ग्यास निस्कन्छ?",
+    "options_en": ["Oxygen", "Nitrogen", "Hydrogen", "Carbon Dioxide"],
+    "options_np": ["अक्सिजन", "नाइट्रोजन", "हाइड्रोजन", "कार्बन डाइअक्साइड"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "A person with Blood Group 'O' can donate blood to which groups?",
+    "question_np": "'O' ब्लड ग्रुप भएको व्यक्तिले कुन ग्रुपलाई रगत दिन सक्छ?",
+    "options_en": ["Only O", "A and B", "AB only", "All groups"],
+    "options_np": ["O लाई मात्र", "A र B लाई", "AB लाई मात्र", "सबै समूहलाई"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "What is the speed of light in a vacuum?",
+    "question_np": "शून्य माध्यममा प्रकाशको गति कति हुन्छ?",
+    "options_en": ["3 x 10^5 m/s", "3 x 10^8 m/s", "3 x 10^10 m/s", "3 x 10^6 m/s"],
+    "options_np": ["३ x १०^५ m/s", "३ x १०^८ m/s", "३ x १०^१० m/s", "३ x १०^६ m/s"],
+    "correct_answer": 1
+  },
+
+  {
+    "question": "Which of the following is an example of an 'Oxymoron'?",
+    "options": ["The wind whispered.", "Clearly confused.", "As brave as a lion.", "The big blue boat."],
+    "correct_answer": 1
+  },
+  {
+    "question": "Identify the 'Subjunctive Mood' in the following options:",
+    "options": ["If I am you, I will go.", "If I was you, I would go.", "If I were you, I would go.", "I am going now."],
+    "correct_answer": 2
+  },
+  {
+    "question": "What is the meaning of the idiom 'To bark up the wrong tree'?",
+    "options": ["To shout at nature", "To be mistaken in one's focus", "To climb a tree", "To hunt for birds"],
+    "correct_answer": 1
+  },
+  {
+    "question": "Which word is the antonym of 'Ephemeral'?",
+    "options": ["Short-lived", "Eternal", "Transparent", "Fragile"],
+    "correct_answer": 1
+  },
+  {
+    "question": "Choose the correctly spelled word:",
+    "options": ["Accomodation", "Accommodation", "Acomodation", "Accomodasion"],
+    "correct_answer": 1
+  },
+  {
+    "question": "In the sentence 'The jury has reached its verdict', 'jury' is what type of noun?",
+    "options": ["Abstract", "Proper", "Collective", "Material"],
+    "correct_answer": 2
+  },
+  {
+    "question": "What does the prefix 'Omni-' mean?",
+    "options": ["Few", "Many", "All", "None"],
+    "correct_answer": 2
+  },
+  
+  {
+    "question_en": "Who has the power to pardon a criminal sentence in Nepal?",
+    "question_np": "नेपालमा फौजदारी सजाय माफी गर्ने अधिकार कसलाई छ?",
+    "options_en": ["Chief Justice", "Prime Minister", "President", "Home Minister"],
+    "options_np": ["प्रधानन्यायाधीश", "प्रधानमन्त्री", "राष्ट्रपति", "गृहमन्त्री"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the term of office for the members of the National Assembly?",
+    "question_np": "राष्ट्रिय सभाका सदस्यहरूको पदावधि कति वर्षको हुन्छ?",
+    "options_en": ["4 years", "5 years", "6 years", "Permanent"],
+    "options_np": ["४ वर्ष", "५ वर्ष", "६ वर्ष", "स्थायी"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "The theory of 'Separation of Powers' was proposed by:",
+    "question_np": "'शक्ति पृथकीकरण' को सिद्धान्त कसले प्रतिपादन गरेका हुन्?",
+    "options_en": ["John Locke", "Montesquieu", "A.V. Dicey", "Aristotle"],
+    "options_np": ["जोन लक", "मोन्टेस्क्यु", "ए.भी. डाइसी", "अरस्तु"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "In Nepal, a bill becomes an Act after it is authenticated by whom?",
+    "question_np": "नेपालमा विधेयक कसले प्रमाणीकरण गरेपछि ऐन बन्दछ?",
+    "options_en": ["Speaker", "Prime Minister", "President", "Chief Justice"],
+    "options_np": ["सभामुख", "प्रधानमन्त्री", "राष्ट्रपति", "प्रधानन्यायाधीश"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which writ is used to produce a detained person before the court?",
+    "question_np": "थुनामा रहेको व्यक्तिलाई अदालतमा उपस्थित गराउन कुन रिट प्रयोग गरिन्छ?",
+    "options_en": ["Mandamus", "Habeas Corpus", "Certiorari", "Prohibition"],
+    "options_np": ["परमादेश", "बन्दी प्रत्यक्षीकरण", "उत्प्रेषण", "प्रतिषेध"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the age of retirement for the Chief Justice of Nepal?",
+    "question_np": "नेपालको प्रधानन्यायाधीशको अवकाश हुने उमेर कति हो?",
+    "options_en": ["60 years", "63 years", "65 years", "70 years"],
+    "options_np": ["६० वर्ष", "६३ वर्ष", "६५ वर्ष", "७० वर्ष"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which article of the Nepal Constitution 2072 relates to 'Right to Property'?",
+    "question_np": "नेपालको संविधान २०७२ को कुन धारा 'सम्पत्तिको हक' सँग सम्बन्धित छ?",
+    "options_en": ["Article 18", "Article 25", "Article 33", "Article 48"],
+    "options_np": ["धारा १८", "धारा २५", "धारा ३३", "धारा ४८"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "The first Constitution of Nepal was promulgated in which year?",
+    "question_np": "नेपालको पहिलो संविधान कुन सालमा जारी भएको थियो?",
+    "options_en": ["2004 BS", "2007 BS", "2015 BS", "2019 BS"],
+    "options_np": ["२००४ साल", "२००७ साल", "२०१५ साल", "२०१९ साल"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "What is the total number of fundamental rights in the current Constitution of Nepal?",
+    "question_np": "नेपालको हालको संविधानमा जम्मा कतिवटा मौलिक हकहरू छन्?",
+    "options_en": ["21", "25", "31", "35"],
+    "options_np": ["२१", "२५", "३१", "३५"],
     "correct_answer": 2
   }
 ]
+
+
+
+
+
+  
+
+
+
+
+
+
+
+

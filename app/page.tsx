@@ -60,9 +60,9 @@ export default function Home() {
                 className="bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-700 rounded-2xl p-6 text-center shadow-sm hover:shadow-xl hover:-translate-y-1 transition group"
               >
                 {setId === 1 && <BookOpen className="w-12 h-12 mx-auto mb-3 text-blue-600 group-hover:scale-110 transition" />}
-                {setId === 2 && <Calculator className="w-12 h-12 mx-auto mb-3 text-blue-600 group-hover:scale-110 transition" />}
-                {setId === 3 && <Monitor className="w-12 h-12 mx-auto mb-3 text-green-600 group-hover:scale-110 transition" />}
-                {setId === 4 && <FileText className="w-12 h-12 mx-auto mb-3 text-purple-600 group-hover:scale-110 transition" />}
+                {setId === 2 && <BookOpen className="w-12 h-12 mx-auto mb-3 text-blue-600 group-hover:scale-110 transition" />}
+                {setId === 3 && <BookOpen className="w-12 h-12 mx-auto mb-3 text-green-600 group-hover:scale-110 transition" />}
+                {setId === 4 && <BookOpen className="w-12 h-12 mx-auto mb-3 text-purple-600 group-hover:scale-110 transition" />}
                 
                 <h3 className="text-lg font-bold mb-2 dark:text-white group-hover:text-blue-600">
                   {t(`set${setId}Title`) || `Practice Set ${setId}`}

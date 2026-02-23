@@ -33,14 +33,14 @@ const translations: Record<Language, Record<string, string>> = {
     lastResult: "Last Result",
     
     // Question Sets
-    set1Title: "General Knowledge",
-    set1Desc: "Nepal Geography, Constitution, History",
-    set2Title: "Mathematics",
-    set2Desc: "Percentage, Ratio, Arithmetic, Reasoning",
-    set3Title: "Computer Knowledge",
-    set3Desc: "Fundamentals, Internet, Networking",
-    set4Title: "Language",
-    set4Desc: "Grammar, Vocabulary, Sentence Correction",
+    set1Title: "Question Model 1",
+    set1Desc: "Set1",
+    set2Title: "Question Model 2",
+    set2Desc: "Set2",
+    set3Title: "Question Model 3",
+    set3Desc: "Set3",
+    set4Title: "Question Model 4",
+    set4Desc: "Set4",
     
     startQuiz: "Start Quiz",
     questions: "Questions",
@@ -88,13 +88,13 @@ const translations: Record<Language, Record<string, string>> = {
     lastResult: "अन्तिम नतिजा",
     
     // Question Sets
-    set1Title: "सामान्य ज्ञान",
+    set1Title: "प्रश्न मोडेल 1",
     set1Desc: "नेपाल भूगोल, संविधान, इतिहास",
-    set2Title: "गणित",
+    set2Title: "प्रश्न मोडेल 2",
     set2Desc: "प्रतिशत, अनुपात, अंकगणित, तर्क",
-    set3Title: "कम्प्युटर ज्ञान",
+    set3Title: "प्रश्न मोडेल 3",
     set3Desc: "आधारभूत, इन्टरनेट, नेटवर्किङ",
-    set4Title: "भाषा",
+    set4Title: "प्रश्न मोडेल 4",
     set4Desc: "व्याकरण, शब्दावली, वाक्य सुधार",
     
     startQuiz: "क्विज सुरु गर्नुहोस्",

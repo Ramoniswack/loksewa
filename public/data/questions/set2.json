@@ -1,142 +1,720 @@
 [
   {
-    "question_en": "A bag contains 4 red balls and 6 blue balls. If two balls are drawn at random without replacement, what is the probability that both are red?",
-    "question_np": "एउटा झोलामा ४ वटा रातो र ६ वटा नीलो बलहरू छन्। यदि कुनै दुईवटा बलहरू प्रतिस्थापन नगरी (without replacement) निकालियो भने, दुवै रातो हुने सम्भावना कति हुन्छ?",
-    "options_en": ["16/100", "2/15", "4/25", "1/15"],
-    "options_np": ["१६/१००", "२/१५", "४/२५", "१/१५"],
+    "question_en": "What is the capital city of Nepal?",
+    "question_np": "नेपालको राजधानी सहर कुन हो?",
+    "options_en": ["Pokhara", "Kathmandu", "Lalitpur", "Biratnagar"],
+    "options_np": ["पोखरा", "काठमाडौं", "ललितपुर", "विराटनगर"],
     "correct_answer": 1
   },
   {
-    "question_en": "If the radius of a circle is increased by 50%, by what percentage does the area increase?",
-    "question_np": "यदि एउटा वृत्तको अर्धव्यास ५०% ले बढाइयो भने, त्यसको क्षेत्रफल कति प्रतिशतले बढ्छ?",
-    "options_en": ["50%", "100%", "125%", "225%"],
-    "options_np": ["५०%", "१००%", "१२५%", "२२५%"],
-    "correct_answer": 2
-  },
-  {
-    "question_en": "A clock strikes 6 times in 5 seconds. How many seconds will it take to strike 12 times?",
-    "question_np": "एउटा घडीलाई ६ पटक बज्न ५ सेकेन्ड लाग्छ भने १२ पटक बज्न कति सेकेन्ड लाग्ला?",
-    "options_en": ["10 seconds", "11 seconds", "12 seconds", "13 seconds"],
-    "options_np": ["१० सेकेन्ड", "११ सेकेन्ड", "१२ सेकेन्ड", "१३ सेकेन्ड"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "In a group of cows and chickens, the number of legs is 14 more than twice the number of heads. How many cows are there?",
-    "question_np": "गाई र कुखुराको एउटा समूहमा, खुट्टाको संख्या टाउकोको संख्याको दोब्बर भन्दा १४ बढी छ। त्यहाँ कतिवटा गाई छन्?",
-    "options_en": ["5", "7", "10", "12"],
-    "options_np": ["५", "७", "१०", "१२"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "A sum of money doubles itself in 10 years at simple interest. In how many years will it triple itself?",
-    "question_np": "साधारण ब्याजमा कुनै रकम १० वर्षमा दोब्बर हुन्छ भने सोही दरमा कति वर्षमा तेब्बर होला?",
-    "options_en": ["15 years", "20 years", "25 years", "30 years"],
-    "options_np": ["१५ वर्ष", "२० वर्ष", "२५ वर्ष", "३० वर्ष"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "What is the unit digit in the product of (2467^153 × 341^72)?",
-    "question_np": "(२४६७^१५३ × ३४१^७२) को गुणनफलमा एकाइको अंक (unit digit) के हुन्छ?",
-    "options_en": ["1", "3", "7", "9"],
-    "options_np": ["१", "३", "७", "९"],
-    "correct_answer": 2
-  },
-  {
-    "question_en": "A trader marks his goods 20% above the cost price but allows a 10% discount for cash. What is his net profit percentage?",
-    "question_np": "एक व्यापारीले सामानको मूल्य लागत मूल्य भन्दा २०% बढी अंकित गर्छ र नगदमा १०% छुट दिन्छ। उसको खुद नाफा प्रतिशत कति हो?",
-    "options_en": ["10%", "8%", "12%", "15%"],
-    "options_np": ["१०%", "८%", "१२%", "१५%"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "If x + 1/x = 5, then what is the value of x² + 1/x²?",
-    "question_np": "यदि x + १/x = ५ भए, x² + १/x² को मान कति हुन्छ?",
-    "options_en": ["23", "25", "27", "30"],
-    "options_np": ["२३", "२५", "२७", "३०"],
+    "question_en": "Who is known as the Father of the Nation of Nepal?",
+    "question_np": "नेपालका राष्ट्रपिता भनेर कसलाई चिनिन्छ?",
+    "options_en": ["Prithvi Narayan Shah", "B.P. Koirala", "King Mahendra", "Jung Bahadur Rana"],
+    "options_np": ["पृथ्वी नारायण शाह", "बी.पी. कोइराला", "राजा महेन्द्र", "जंगबहादुर राणा"],
     "correct_answer": 0
   },
   {
-    "question_en": "A man rows upstream 13 km and downstream 28 km, taking 5 hours each time. What is the velocity of the current?",
-    "question_np": "एक व्यक्तिले १३ किमी छालको विपरीत (upstream) र २८ किमी छालको दिशामा (downstream) डुङ्गा खियाउँदा दुवै पटक ५ घण्टा लाग्छ। पानीको बहावको गति कति हो?",
-    "options_en": ["1.5 km/h", "2 km/h", "2.5 km/h", "3 km/h"],
-    "options_np": ["१.५ किमी/घण्टा", "२ किमी/घण्टा", "२.५ किमी/घण्टा", "३ किमी/घण्टा"],
+    "question_en": "Which is the longest river in Nepal?",
+    "question_np": "नेपालको सबैभन्दा लामो नदी कुन हो?",
+    "options_en": ["Koshi", "Gandaki", "Karnali", "Bagmati"],
+    "options_np": ["कोशी", "गण्डकी", "कर्णाली", "बागमती"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Mount Everest lies in which province of Nepal?",
+    "question_np": "सगरमाथा नेपालका कुन प्रदेशमा पर्दछ?",
+    "options_en": ["Province 1", "Madhesh Province", "Bagmati Province", "Karnali Province"],
+    "options_np": ["प्रदेश १", "मधेश प्रदेश", "बागमती प्रदेश", "कर्णाली प्रदेश"],
     "correct_answer": 0
   },
   {
-    "question_en": "The average age of a class of 20 students is 15 years. If the teacher's age is included, the average increases by 1 year. What is the teacher's age?",
-    "question_np": "२० जना विद्यार्थी भएको एउटा कक्षाको औसत उमेर १५ वर्ष छ। यदि शिक्षकको उमेर थपियो भने औसत १ वर्षले बढ्छ। शिक्षकको उमेर कति हो?",
-    "options_en": ["30", "35", "36", "41"],
-    "options_np": ["३०", "३५", "३६", "४१"],
+    "question_en": "What is 15% of 200?",
+    "question_np": "२०० को १५% कति हुन्छ?",
+    "options_en": ["25", "30", "35", "40"],
+    "options_np": ["२५", "३०", "३५", "४०"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "If 8 + 4 × 2 = ?",
+    "question_np": "यदि ८ + ४ × २ = ?",
+    "options_en": ["16", "24", "12", "20"],
+    "options_np": ["१६", "२४", "१२", "२०"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which planet is known as the Red Planet?",
+    "question_np": "रातो ग्रह भनेर कुन ग्रहलाई चिनिन्छ?",
+    "options_en": ["Earth", "Mars", "Jupiter", "Venus"],
+    "options_np": ["पृथ्वी", "मंगल", "बृहस्पति", "शुक्र"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Who wrote the national anthem of Nepal?",
+    "question_np": "नेपालको राष्ट्रिय गान कसले लेखेका हुन्?",
+    "options_en": ["Byakul Maila", "Madhav Ghimire", "Laxmi Prasad Devkota", "Bhanubhakta Acharya"],
+    "options_np": ["व्याकुल माइल", "माधव घिमिरे", "लक्ष्मीप्रसाद देवकोटा", "भानुभक्त आचार्य"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which gas is essential for human respiration?",
+    "question_np": "मानव श्वासप्रश्वासका लागि आवश्यक ग्यास कुन हो?",
+    "options_en": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "options_np": ["अक्सिजन", "नाइट्रोजन", "कार्बन डाइअक्साइड", "हाइड्रोजन"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "If a train travels 60 km in 1 hour, how far will it travel in 3 hours?",
+    "question_np": "यदि रेल १ घण्टामा ६० किमी जान्छ भने ३ घण्टामा कति जान्छ?",
+    "options_en": ["120 km", "150 km", "180 km", "200 km"],
+    "options_np": ["१२० किमी", "१५० किमी", "१८० किमी", "२०० किमी"],
+    "correct_answer": 2
+  },
+ 
+  {
+    "question_en": "What is the capital city of Nepal?",
+    "question_np": "नेपालको राजधानी सहर कुन हो?",
+    "options_en": ["Pokhara", "Kathmandu", "Lalitpur", "Biratnagar"],
+    "options_np": ["पोखरा", "काठमाडौं", "ललितपुर", "विराटनगर"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Who is known as the Father of the Nation of Nepal?",
+    "question_np": "नेपालका राष्ट्रपिता भनेर कसलाई चिनिन्छ?",
+    "options_en": ["Prithvi Narayan Shah", "B.P. Koirala", "King Mahendra", "Jung Bahadur Rana"],
+    "options_np": ["पृथ्वी नारायण शाह", "बी.पी. कोइराला", "राजा महेन्द्र", "जंगबहादुर राणा"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which is the longest river in Nepal?",
+    "question_np": "नेपालको सबैभन्दा लामो नदी कुन हो?",
+    "options_en": ["Koshi", "Gandaki", "Karnali", "Bagmati"],
+    "options_np": ["कोशी", "गण्डकी", "कर्णाली", "बागमती"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Mount Everest lies in which province of Nepal?",
+    "question_np": "सगरमाथा नेपालका कुन प्रदेशमा पर्दछ?",
+    "options_en": ["Province 1", "Madhesh Province", "Bagmati Province", "Karnali Province"],
+    "options_np": ["प्रदेश १", "मधेश प्रदेश", "बागमती प्रदेश", "कर्णाली प्रदेश"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "What is 15% of 200?",
+    "question_np": "२०० को १५% कति हुन्छ?",
+    "options_en": ["25", "30", "35", "40"],
+    "options_np": ["२५", "३०", "३५", "४०"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "If 8 + 4 × 2 = ?",
+    "question_np": "यदि ८ + ४ × २ = ?",
+    "options_en": ["16", "24", "12", "20"],
+    "options_np": ["१६", "२४", "१२", "२०"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which planet is known as the Red Planet?",
+    "question_np": "रातो ग्रह भनेर कुन ग्रहलाई चिनिन्छ?",
+    "options_en": ["Earth", "Mars", "Jupiter", "Venus"],
+    "options_np": ["पृथ्वी", "मंगल", "बृहस्पति", "शुक्र"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Who wrote the national anthem of Nepal?",
+    "question_np": "नेपालको राष्ट्रिय गान कसले लेखेका हुन्?",
+    "options_en": ["Byakul Maila", "Madhav Ghimire", "Laxmi Prasad Devkota", "Bhanubhakta Acharya"],
+    "options_np": ["व्याकुल माइल", "माधव घिमिरे", "लक्ष्मीप्रसाद देवकोटा", "भानुभक्त आचार्य"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which gas is essential for human respiration?",
+    "question_np": "मानव श्वासप्रश्वासका लागि आवश्यक ग्यास कुन हो?",
+    "options_en": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "options_np": ["अक्सिजन", "नाइट्रोजन", "कार्बन डाइअक्साइड", "हाइड्रोजन"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "If a train travels 60 km in 1 hour, how far will it travel in 3 hours?",
+    "question_np": "यदि रेल १ घण्टामा ६० किमी जान्छ भने ३ घण्टामा कति जान्छ?",
+    "options_en": ["120 km", "150 km", "180 km", "200 km"],
+    "options_np": ["१२० किमी", "१५० किमी", "१८० किमी", "२०० किमी"],
+    "correct_answer": 2
+  },
+  
+  {
+    "question_en": "What is the currency of Nepal?",
+    "question_np": "नेपालको मुद्रा के हो?",
+    "options_en": ["Rupee", "Dollar", "Euro", "Yen"],
+    "options_np": ["रुपैयाँ", "डलर", "युरो", "येन"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which is the smallest prime number?",
+    "question_np": "सबैभन्दा सानो अभाज्य संख्या कुन हो?",
+    "options_en": ["0", "1", "2", "3"],
+    "options_np": ["०", "१", "२", "३"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "How many continents are there in the world?",
+    "question_np": "विश्वमा कति महादेश छन्?",
+    "options_en": ["5", "6", "7", "8"],
+    "options_np": ["५", "६", "७", "८"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is H2O commonly known as?",
+    "question_np": "H2O लाई सामान्यतया के भनिन्छ?",
+    "options_en": ["Oxygen", "Hydrogen", "Salt", "Water"],
+    "options_np": ["अक्सिजन", "हाइड्रोजन", "नुन", "पानी"],
     "correct_answer": 3
   },
   {
-    "question_en": "Find the missing number: 1, 4, 27, 16, 125, 36, ?",
-    "question_np": "खाली ठाउँ भर्नुहोस्: १, ४, २७, १६, १२५, ३६, ?",
-    "options_en": ["49", "64", "216", "343"],
-    "options_np": ["४९", "६४", "२१६", "३४३"],
+    "question_en": "If 12 × 12 = ?",
+    "question_np": "यदि १२ × १२ = ?",
+    "options_en": ["124", "144", "154", "164"],
+    "options_np": ["१२४", "१४४", "१५४", "१६४"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which organ pumps blood in the human body?",
+    "question_np": "मानव शरीरमा रगत पम्प गर्ने अंग कुन हो?",
+    "options_en": ["Lungs", "Brain", "Heart", "Kidney"],
+    "options_np": ["फोक्सो", "मस्तिष्क", "हृदय", "मिर्गौला"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which is the national flower of Nepal?",
+    "question_np": "नेपालको राष्ट्रिय फूल कुन हो?",
+    "options_en": ["Lotus", "Rhododendron", "Sunflower", "Rose"],
+    "options_np": ["कमल", "लालीगुराँस", "सूर्यमुखी", "गुलाब"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "How many days are there in a leap year?",
+    "question_np": "अधिवर्षमा कति दिन हुन्छ?",
+    "options_en": ["365", "366", "364", "367"],
+    "options_np": ["३६५", "३६६", "३६४", "३६७"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which planet is closest to the Sun?",
+    "question_np": "सूर्यको सबैभन्दा नजिकको ग्रह कुन हो?",
+    "options_en": ["Earth", "Mars", "Mercury", "Venus"],
+    "options_np": ["पृथ्वी", "मंगल", "बुध", "शुक्र"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the square root of 81?",
+    "question_np": "८१ को वर्गमूल कति हो?",
+    "options_en": ["7", "8", "9", "10"],
+    "options_np": ["७", "८", "९", "१०"],
+    "correct_answer": 2
+  },
+
+  {
+    "question_en": "Which country is known as the Land of the Rising Sun?",
+    "question_np": "उदयमान सूर्यको देश भनेर कुन देशलाई चिनिन्छ?",
+    "options_en": ["China", "Japan", "Thailand", "Korea"],
+    "options_np": ["चीन", "जापान", "थाइल्याण्ड", "कोरिया"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "If a triangle has angles 60°, 60°, 60°, it is called?",
+    "question_np": "यदि त्रिभुजका कोण ६०°, ६०°, ६०° छन् भने यसलाई के भनिन्छ?",
+    "options_en": ["Right triangle", "Scalene triangle", "Equilateral triangle", "Isosceles triangle"],
+    "options_np": ["समकोण त्रिभुज", "विषमबाहु त्रिभुज", "समबाहु त्रिभुज", "समद्विबाहु त्रिभुज"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which metal is liquid at room temperature?",
+    "question_np": "कोठाको तापक्रममा तरल हुने धातु कुन हो?",
+    "options_en": ["Iron", "Mercury", "Gold", "Silver"],
+    "options_np": ["फलाम", "पारा", "सुन", "चाँदी"],
+    "correct_answer": 1
+  },
+
+  {
+    "question_en": "Which is the largest ocean in the world?",
+    "question_np": "विश्वको सबैभन्दा ठूलो महासागर कुन हो?",
+    "options_en": ["Atlantic", "Indian", "Pacific", "Arctic"],
+    "options_np": ["एटलान्टिक", "हिन्द", "प्रशान्त", "आर्कटिक"],
+    "correct_answer": 2
+  },
+  
+
+  {
+    "question_en": "Which is the highest mountain in the world?",
+    "question_np": "विश्वको सबैभन्दा अग्लो हिमाल कुन हो?",
+    "options_en": ["K2", "Mount Everest", "Kanchenjunga", "Lhotse"],
+    "options_np": ["केटु", "सगरमाथा", "कञ्चनजंघा", "ल्होत्से"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is 25% of 400?",
+    "question_np": "४०० को २५% कति हुन्छ?",
+    "options_en": ["50", "75", "100", "125"],
+    "options_np": ["५०", "७५", "१००", "१२५"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Who discovered gravity?",
+    "question_np": "गुरुत्वाकर्षणको खोज कसले गरेका हुन्?",
+    "options_en": ["Newton", "Einstein", "Galileo", "Tesla"],
+    "options_np": ["न्युटन", "आइन्स्टाइन", "ग्यालिलियो", "टेस्ला"],
+    "correct_answer": 0
+  },
+ 
+  {
+    "question_en": "Which vitamin is obtained from sunlight?",
+    "question_np": "घामबाट प्राप्त हुने भिटामिन कुन हो?",
+    "options_en": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+    "options_np": ["भिटामिन ए", "भिटामिन बी", "भिटामिन सी", "भिटामिन डी"],
     "correct_answer": 3
   },
   {
-    "question_en": "If the side of a square is doubled, how many times does its area become?",
-    "question_np": "यदि एउटा वर्गको भुजा दोब्बर बनाइयो भने त्यसको क्षेत्रफल कति गुणा हुन्छ?",
-    "options_en": ["2 times", "3 times", "4 times", "8 times"],
-    "options_np": ["२ गुणा", "३ गुणा", "४ गुणा", "८ गुणा"],
+    "question_en": "What is the largest planet in our solar system?",
+    "question_np": "हाम्रो सौर्यमण्डलको सबैभन्दा ठूलो ग्रह कुन हो?",
+    "options_en": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "options_np": ["पृथ्वी", "मंगल", "बृहस्पति", "शनि"],
     "correct_answer": 2
   },
   {
-    "question_en": "A person travels from A to B at 40 km/h and returns at 60 km/h. What is the average speed for the entire journey?",
-    "question_np": "एक व्यक्ति A बाट B सम्म ४० किमी/घण्टाको गतिमा जान्छ र ६० किमी/घण्टाको गतिमा फर्कन्छ। पूरै यात्राको औसत गति कति हो?",
-    "options_en": ["48 km/h", "50 km/h", "52 km/h", "55 km/h"],
-    "options_np": ["४८ किमी/घण्टा", "५० किमी/घण्टा", "५२ किमी/घण्टा", "५५ किमी/घण्टा"],
+    "question_en": "How many sides does a hexagon have?",
+    "question_np": "हेक्सागनमा कति वटा भुजा हुन्छन्?",
+    "options_en": ["5", "6", "7", "8"],
+    "options_np": ["५", "६", "७", "८"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which blood group is known as universal donor?",
+    "question_np": "कुन रक्तसमूहलाई सार्वभौमिक दाता भनिन्छ?",
+    "options_en": ["A", "B", "O negative", "AB positive"],
+    "options_np": ["ए", "बी", "ओ नेगेटिभ", "एबी पोजिटिभ"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "If a car travels 90 km in 2 hours, what is its speed?",
+    "question_np": "यदि कारले २ घण्टामा ९० किमी यात्रा गर्छ भने यसको गति कति हुन्छ?",
+    "options_en": ["40 km/h", "45 km/h", "50 km/h", "60 km/h"],
+    "options_np": ["४० किमी/घण्टा", "४५ किमी/घण्टा", "५० किमी/घण्टा", "६० किमी/घण्टा"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which is the largest desert in the world?",
+    "question_np": "विश्वको सबैभन्दा ठूलो मरुभूमि कुन हो?",
+    "options_en": ["Sahara", "Gobi", "Thar", "Kalahari"],
+    "options_np": ["सहारा", "गोबी", "थार", "कालाहारी"],
+    "correct_answer": 0
+  },
+
+  {
+    "question_en": "What is the cube of 3?",
+    "question_np": "३ को घनफल कति हो?",
+    "options_en": ["6", "9", "27", "18"],
+    "options_np": ["६", "९", "२७", "१८"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which country has the largest population?",
+    "question_np": "सबैभन्दा धेरै जनसंख्या भएको देश कुन हो?",
+    "options_en": ["USA", "India", "China", "Russia"],
+    "options_np": ["अमेरिका", "भारत", "चीन", "रूस"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which instrument is used to measure temperature?",
+    "question_np": "तापक्रम मापन गर्न कुन उपकरण प्रयोग हुन्छ?",
+    "options_en": ["Barometer", "Thermometer", "Hygrometer", "Altimeter"],
+    "options_np": ["बारोमिटर", "थर्मोमिटर", "हाइग्रोमिटर", "अल्टिमिटर"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "If 100 ÷ 4 = ?",
+    "question_np": "यदि १०० ÷ ४ = ?",
+    "options_en": ["20", "25", "30", "40"],
+    "options_np": ["२०", "२५", "३०", "४०"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which is the fastest land animal?",
+    "question_np": "सबैभन्दा छिटो दौडने स्थल जनावर कुन हो?",
+    "options_en": ["Lion", "Tiger", "Cheetah", "Leopard"],
+    "options_np": ["सिंह", "बाघ", "चितुवा", "चित्ता"],
+    "correct_answer": 2
+  },
+
+  {
+    "question_en": "How many bones are there in an adult human body?",
+    "question_np": "वयस्क मानव शरीरमा कति हड्डी हुन्छन्?",
+    "options_en": ["200", "206", "210", "196"],
+    "options_np": ["२००", "२०६", "२१०", "१९६"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the value of π (approx)?",
+    "question_np": "π को मान (झण्डै) कति हो?",
+    "options_en": ["2.14", "3.14", "4.13", "3.41"],
+    "options_np": ["२.१४", "३.१४", "४.१३", "३.४१"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which planet has rings?",
+    "question_np": "कुन ग्रहमा घेरा (rings) हुन्छ?",
+    "options_en": ["Earth", "Mars", "Saturn", "Mercury"],
+    "options_np": ["पृथ्वी", "मंगल", "शनि", "बुध"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "If 7² = ?",
+    "question_np": "यदि ७² = ?",
+    "options_en": ["49", "42", "36", "56"],
+    "options_np": ["४९", "४२", "३६", "५६"],
     "correct_answer": 0
   },
   {
-    "question_en": "What is the value of (0.2 × 0.2 × 0.2 + 0.3 × 0.3 × 0.3) / (0.2 × 0.2 - 0.2 × 0.3 + 0.3 × 0.3)?",
-    "question_np": "(०.२ × ०.२ × ०.२ + ०.३ × ०.३ × ०.३) / (०.२ × ०.२ - ०.२ × ०.३ + ०.३ × ०.३) को मान कति हुन्छ?",
-    "options_en": ["0.1", "0.5", "0.05", "0.6"],
-    "options_np": ["०.१", "०.५", "०.०५", "०.६"],
+    "question_en": "Which is the national animal of Nepal?",
+    "question_np": "नेपालको राष्ट्रिय जनावर कुन हो?",
+    "options_en": ["Cow", "Tiger", "Elephant", "Rhino"],
+    "options_np": ["गाई", "बाघ", "हात्ती", "गैंडा"],
+    "correct_answer": 0
+  },
+
+  {
+    "question_en": "How many minutes are there in 1 hour?",
+    "question_np": "१ घण्टामा कति मिनेट हुन्छ?",
+    "options_en": ["50", "55", "60", "65"],
+    "options_np": ["५०", "५५", "६०", "६५"],
+    "correct_answer": 2
+  },
+ 
+  {
+    "question_en": "If 5³ = ?",
+    "question_np": "यदि ५³ = ?",
+    "options_en": ["15", "25", "125", "100"],
+    "options_np": ["१५", "२५", "१२५", "१००"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which continent is Nepal located in?",
+    "question_np": "नेपाल कुन महादेशमा अवस्थित छ?",
+    "options_en": ["Europe", "Africa", "Asia", "Australia"],
+    "options_np": ["युरोप", "अफ्रिका", "एसिया", "अष्ट्रेलिया"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which is the hardest natural substance?",
+    "question_np": "प्राकृतिक रूपमा सबैभन्दा कडा पदार्थ कुन हो?",
+    "options_en": ["Gold", "Iron", "Diamond", "Silver"],
+    "options_np": ["सुन", "फलाम", "हीरा", "चाँदी"],
+    "correct_answer": 2
+  },
+
+  {
+    "question_en": "Which gas is most abundant in Earth's atmosphere?",
+    "question_np": "पृथ्वीको वायुमण्डलमा सबैभन्दा बढी पाइने ग्यास कुन हो?",
+    "options_en": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Argon"],
+    "options_np": ["अक्सिजन", "नाइट्रोजन", "कार्बन डाइअक्साइड", "आर्गन"],
     "correct_answer": 1
   },
   {
-    "question_en": "How many times do the hands of a clock overlap in 24 hours?",
-    "question_np": "२४ घण्टामा घडीका सुइहरू कति पटक एकै ठाउँमा खप्टिन्छन् (overlap)?",
-    "options_en": ["21", "22", "23", "24"],
-    "options_np": ["२१", "२२", "२३", "२४"],
+    "question_en": "What is the square root of 144?",
+    "question_np": "१४४ को वर्गमूल कति हुन्छ?",
+    "options_en": ["10", "11", "12", "14"],
+    "options_np": ["१०", "११", "१२", "१४"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Who is the author of the national anthem of Nepal?",
+    "question_np": "नेपालको राष्ट्रिय गानका रचनाकार को हुन्?",
+    "options_en": ["Laxmi Prasad Devkota", "Pradeep Kumar Rai (Byakul Maila)", "Bhanubhakta Acharya", "Madhav Prasad Ghimire"],
+    "options_np": ["लक्ष्मीप्रसाद देवकोटा", "प्रदीप कुमार राई (व्याकुल माइला)", "भानुभक्त आचार्य", "माधवप्रसाद घिमिरे"],
+    "correct_answer": 1
+  },
+
+ 
+  {
+    "question_en": "Which planet is known as the Red Planet?",
+    "question_np": "कुन ग्रहलाई रातो ग्रह भनिन्छ?",
+    "options_en": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "options_np": ["शुक्र", "मंगल", "बृहस्पति", "शनि"],
     "correct_answer": 1
   },
   {
-    "question_en": "A and B can complete a work in 12 days, B and C in 15 days, and C and A in 20 days. In how many days can A alone finish the work?",
-    "question_np": "A र B ले एउटा काम १२ दिनमा, B र C ले १५ दिनमा र C र A ले २० दिनमा सक्छन्। A एक्लैले सो काम कति दिनमा सक्ला?",
-    "options_en": ["30 days", "40 days", "24 days", "60 days"],
-    "options_np": ["३० दिन", "४० दिन", "२४ दिन", "६० दिन"],
+    "question_en": "How many provinces are there in Nepal?",
+    "question_np": "नेपालमा कतिवटा प्रदेशहरू छन्?",
+    "options_en": ["5", "6", "7", "8"],
+    "options_np": ["५", "६", "७", "८"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Find the value of: 15 × 4 - 10",
+    "question_np": "मान पत्ता लगाउनुहोस्: १५ × ४ - १०",
+    "options_en": ["50", "40", "60", "45"],
+    "options_np": ["५०", "४०", "६०", "४५"],
     "correct_answer": 0
   },
   {
-    "question_en": "What is the sum of the first 50 natural numbers?",
-    "question_np": "पहिलो ५० वटा प्राकृतिक संख्याहरूको योगफल कति हुन्छ?",
-    "options_en": ["1225", "1250", "1275", "2550"],
-    "options_np": ["१२२५", "१२५०", "१२७५", "२५५०"],
+    "question_en": "Which organ pumps blood in the human body?",
+    "question_np": "मानव शरीरमा रगत पम्प गर्ने अंग कुन हो?",
+    "options_en": ["Lungs", "Brain", "Heart", "Liver"],
+    "options_np": ["फोक्सो", "मस्तिष्क", "मुटु", "कलेजो"],
     "correct_answer": 2
   },
   {
-    "question_en": "If 10 men can reap a field in 8 days, in how many days can 20 women reap the same field if 2 men = 3 women?",
-    "question_np": "यदि १० जना पुरुषले एउटा खेत ८ दिनमा काट्न सक्छन् भने २० जना महिलाले सोही खेत कति दिनमा काट्लान्? (जहाँ २ पुरुष = ३ महिला)",
-    "options_en": ["4 days", "6 days", "8 days", "12 days"],
-    "options_np": ["४ दिन", "६ दिन", "८ दिन", "१२ दिन"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "The diagonal of a square is 10 cm. What is its area?",
-    "question_np": "एउटा वर्गको विकर्ण १० सेमी छ। यसको क्षेत्रफल कति हुन्छ?",
-    "options_en": ["25 sq cm", "50 sq cm", "100 sq cm", "75 sq cm"],
-    "options_np": ["२५ वर्ग सेमी", "५० वर्ग सेमी", "१०० वर्ग सेमी", "७५ वर्ग सेमी"],
-    "correct_answer": 1
-  },
-  {
-    "question_en": "What is the remainder when 2^31 is divided by 5?",
-    "question_np": "२^३१ लाई ५ ले भाग गर्दा शेष (remainder) कति रहन्छ?",
-    "options_en": ["1", "2", "3", "4"],
-    "options_np": ["१", "२", "३", "४"],
+    "question_en": "Which is the smallest continent in the world?",
+    "question_np": "विश्वको सबैभन्दा सानो महादेश कुन हो?",
+    "options_en": ["Europe", "Antarctica", "Australia", "South America"],
+    "options_np": ["युरोप", "अन्टार्कटिका", "अष्ट्रेलिया", "दक्षिण अमेरिका"],
     "correct_answer": 2
+  },
+  {
+    "question_en": "Choose the correct spelling:",
+    "question_np": "सही हिज्जे (spelling) छान्नुहोस्:",
+    "options_en": ["Recieve", "Receive", "Receve", "Riceive"],
+    "options_np": ["Recieve", "Receive", "Receve", "Riceive"],
+    "correct_answer": 1
+  },
+ 
+  {
+    "question_en": "Who was the first king of unified Nepal?",
+    "question_np": "एकीकृत नेपालको पहिलो राजा को हुन्?",
+    "options_en": ["Prithvi Narayan Shah", "Tribhuvan", "Mahendra", "Birendra"],
+    "options_np": ["पृथ्वीनारायण शाह", "त्रिभुवन", "महेन्द्र", "वीरेन्द्र"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "An angle of 90 degrees is called?",
+    "question_np": "९० डिग्रीको कोणलाई के भनिन्छ?",
+    "options_en": ["Acute angle", "Obtuse angle", "Right angle", "Reflex angle"],
+    "options_np": ["न्यून कोण", "अधिक कोण", "समकोण", "वृहत कोण"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which festival is known as the 'Festival of Lights'?",
+    "question_np": "कुन चाडलाई 'उज्यालोको चाड' भनिन्छ?",
+    "options_en": ["Dashain", "Tihar", "Holi", "Chhath"],
+    "options_np": ["दशैं", "तिहार", "होली", "छठ"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the chemical formula for water?",
+    "question_np": "पानीको रासायनिक सूत्र के हो?",
+    "options_en": ["CO2", "O2", "H2O", "NaCl"],
+    "options_np": ["CO2", "O2", "H2O", "NaCl"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Complete the sentence: 'She ___ to school every day.'",
+    "question_np": "वाक्य पूरा गर्नुहोस्: 'She ___ to school every day.'",
+    "options_en": ["go", "goes", "going", "gone"],
+    "options_np": ["go", "goes", "going", "gone"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which ocean is the deepest in the world?",
+    "question_np": "विश्वको सबैभन्दा गहिरो महासागर कुन हो?",
+    "options_en": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "options_np": ["आन्ध्र महासागर", "हिन्द महासागर", "सुमेरु महासागर", "प्रशान्त महासागर"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "How many millimeters are there in 1 centimeter?",
+    "question_np": "१ सेन्टिमिटरमा कति मिलिमिटर हुन्छ?",
+    "options_en": ["10", "100", "1000", "5"],
+    "options_np": ["१०", "१००", "१०००", "५"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Who is known as the 'Light of Asia'?",
+    "question_np": "'एसियाका तारा' भनेर कसलाई चिनिन्छ?",
+    "options_en": ["Mahatma Gandhi", "Gautam Buddha", "Prithvi Narayan Shah", "Ashoka"],
+    "options_np": ["महात्मा गान्धी", "गौतम बुद्ध", "पृथ्वीनारायण शाह", "अशोक"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which part of the plant conducts photosynthesis?",
+    "question_np": "बोटबिरुवाको कुन भागले प्रकाश संश्लेषण प्रक्रिया गर्छ?",
+    "options_en": ["Root", "Stem", "Leaf", "Flower"],
+    "options_np": ["जरा", "डाँठ", "पात", "फूल"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the capital city of France?",
+    "question_np": "फ्रान्सको राजधानी शहर कुन हो?",
+    "options_en": ["Berlin", "Madrid", "Paris", "Rome"],
+    "options_np": ["बर्लिन", "म्याड्रिड", "पेरिस", "रोम"],
+    "correct_answer": 2
+  },
+
+  {
+    "question_en": "Which part of the computer is known as its brain?",
+    "question_np": "कम्प्युटरको कुन भागलाई यसको मस्तिष्क भनिन्छ?",
+    "options_en": ["Monitor", "Keyboard", "CPU", "Mouse"],
+    "options_np": ["मनिटर", "किबोर्ड", "सीपीयू", "माउस"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the perimeter of a square with side 5 cm?",
+    "question_np": "५ सेमी भुजा भएको वर्गाकार वस्तुको घेरा (perimeter) कति हुन्छ?",
+    "options_en": ["20 cm", "25 cm", "15 cm", "10 cm"],
+    "options_np": ["२० सेमी", "२५ सेमी", "१५ सेमी", "१० सेमी"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which animal is known as the 'Ship of the Desert'?",
+    "question_np": "कुन जनावरलाई 'मरुभूमिको जहाज' भनिन्छ?",
+    "options_en": ["Horse", "Camel", "Elephant", "Donkey"],
+    "options_np": ["घोडा", "ऊँट", "हात्ती", "गधा"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the opposite of the word 'Ancient'?",
+    "question_np": "'Ancient' (प्राचीन) शब्दको उल्टो अर्थ दिने शब्द कुन हो?",
+    "options_en": ["Old", "Modern", "Historic", "Heavy"],
+    "options_np": ["पुरानो", "आधुनिक", "ऐतिहासिक", "गरुङ्गो"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which gas do we breathe out?",
+    "question_np": "हामीले श्वास छोड्दा कुन ग्यास बाहिर निकाल्छौं?",
+    "options_en": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "options_np": ["अक्सिजन", "नाइट्रोजन", "कार्बन डाइअक्साइड", "हाइड्रोजन"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "In which city is the Pashupatinath Temple located?",
+    "question_np": "पशुपतिनाथ मन्दिर कुन शहरमा अवस्थित छ?",
+    "options_en": ["Pokhara", "Lalitpur", "Kathmandu", "Bhaktapur"],
+    "options_np": ["पोखरा", "ललितपुर", "काठमाडौं", "भक्तपुर"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "If a triangle has two equal sides, it is called?",
+    "question_np": "यदि कुनै त्रिभुजका दुईवटा भुजाहरू बराबर छन् भने त्यसलाई के भनिन्छ?",
+    "options_en": ["Equilateral", "Isosceles", "Scalene", "Right-angled"],
+    "options_np": ["समबाहु", "समद्विबाहु", "विषमबाहु", "समकोण"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Who was the first person to step on the Moon?",
+    "question_np": "चन्द्रमामा पाइला टेक्ने पहिलो व्यक्ति को हुन्?",
+    "options_en": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "Elon Musk"],
+    "options_np": ["युरी गागरिन", "निल आर्मस्ट्रङ्ग", "बज एल्ड्रिन", "इलन मस्क"],
+    "correct_answer": 1
+  },
+
+  {
+    "question_en": "What is the sum of angles in a triangle?",
+    "question_np": "त्रिभुजका तीनवटै कोणहरूको योगफल कति हुन्छ?",
+    "options_en": ["90°", "180°", "270°", "360°"],
+    "options_np": ["९०°", "१८०°", "२७०°", "३६०°"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Which is the longest river in the world?",
+    "question_np": "विश्वको सबैभन्दा लामो नदी कुन हो?",
+    "options_en": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+    "options_np": ["अमेजन", "निल", "याङ्त्जे", "मिसिसिपी"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "What is the plural form of 'Child'?",
+    "question_np": "'Child' को बहुवचन (plural) रूप के हो?",
+    "options_en": ["Childs", "Children", "Childrens", "Childes"],
+    "options_np": ["Childs", "Children", "Childrens", "Childes"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "How many days are there in a leap year?",
+    "question_np": "अधिक वर्ष (Leap year) मा कति दिन हुन्छन्?",
+    "options_en": ["364", "365", "366", "367"],
+    "options_np": ["३६४", "३६५", "३६६", "३६७"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which state of matter has a fixed shape and volume?",
+    "question_np": "पदार्थको कुन अवस्थाको निश्चित आकार र आयतन हुन्छ?",
+    "options_en": ["Solid", "Liquid", "Gas", "Plasma"],
+    "options_np": ["ठोस (Solid)", "तरल (Liquid)", "ग्यास (Gas)", "प्लाज्मा"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "What is the capital of Japan?",
+    "question_np": "जापानको राजधानी कहाँ हो?",
+    "options_en": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
+    "options_np": ["सियोल", "बेइजिङ", "टोकियो", "बैंकक"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Convert 1 kilometer into meters:",
+    "question_np": "१ किलोमिटरलाई मिटरमा परिवर्तन गर्नुहोस्:",
+    "options_en": ["100 m", "500 m", "1000 m", "10,000 m"],
+    "options_np": ["१०० मिटर", "५०० मिटर", "१००० मिटर", "१०००० मिटर"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which is the largest flower in the world?",
+    "question_np": "विश्वको सबैभन्दा ठूलो फूल कुन हो?",
+    "options_en": ["Rose", "Sunflower", "Rafflesia", "Lotus"],
+    "options_np": ["गुलाफ", "सूर्यमुखी", "रफ्लेसिया", "कमल"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which planet is closest to the Sun?",
+    "question_np": "सूर्यको सबैभन्दा नजिकको ग्रह कुन हो?",
+    "options_en": ["Venus", "Earth", "Mars", "Mercury"],
+    "options_np": ["शुक्र", "पृथ्वी", "मंगल", "बुध"],
+    "correct_answer": 3
+  },
+  {
+    "question_en": "Identify the conjunction: 'I like tea and coffee.'",
+    "question_np": "वाक्यमा 'conjunction' पहिचान गर्नुहोस्: 'I like tea and coffee.'",
+    "options_en": ["like", "tea", "and", "coffee"],
+    "options_np": ["like", "tea", "and", "coffee"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "How many colors are there in a rainbow?",
+    "question_np": "इन्द्रेणीमा कतिवटा रङ्गहरू हुन्छन्?",
+    "options_en": ["5", "6", "7", "8"],
+    "options_np": ["५", "६", "७", "८"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "Which is the deepest lake in Nepal?",
+    "question_np": "नेपालको सबैभन्दा गहिरो ताल कुन हो?",
+    "options_en": ["Fewatal", "Rara Lake", "Phoksundo Lake", "Tilicho Lake"],
+    "options_np": ["फेवाताल", "रारा ताल", "फोक्सुण्डो ताल", "तिलिचो ताल"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "What is the full form of 'WWW' in the internet?",
+    "question_np": "इन्टरनेटमा 'WWW' को पूरा रूप के हो?",
+    "options_en": ["World Wide Web", "World Whole Web", "Web Wide World", "World Wide Weapons"],
+    "options_np": ["वर्ल्ड वाइड वेब", "वर्ल्ड होल वेब", "वेब वाइड वर्ल्ड", "वर्ल्ड वाइड वेपन्स"],
+    "correct_answer": 0
+  },
+  {
+    "question_en": "Which sense organ is used for tasting food?",
+    "question_np": "खानाको स्वाद लिन कुन ज्ञानेन्द्रीय प्रयोग गरिन्छ?",
+    "options_en": ["Nose", "Ear", "Tongue", "Skin"],
+    "options_np": ["नाक", "कान", "जिब्रो", "छाला"],
+    "correct_answer": 2
+  },
+  {
+    "question_en": "If 0.5 + 0.5 = ?",
+    "question_np": "यदि ०.५ + ०.५ = ?",
+    "options_en": ["0.10", "1.0", "0.25", "5.5"],
+    "options_np": ["०.१०", "१.०", "०.२५", "५.५"],
+    "correct_answer": 1
+  },
+  {
+    "question_en": "Who is known as the 'Father of Science'?",
+    "question_np": "'विज्ञानका पिता' भनेर कसलाई चिनिन्छ?",
+    "options_en": ["Aristotle", "Galileo Galilei", "Isaac Newton", "Charles Darwin"],
+    "options_np": ["अरस्तु", "ग्यालिलियो ग्यालिली", "आइज्याक न्युटन", "चार्ल्स डार्भिन"],
+    "correct_answer": 1
   }
 ]
+ 

@@ -11,9 +11,9 @@ import { BookOpen, Calculator, Monitor, FileText, BarChart3, Target, TrendingUp 
 
 const questionSets = [
   { id: 1, icon: BookOpen, color: "bg-blue-100 dark:bg-blue-900", iconColor: "text-blue-600" },
-  { id: 2, icon: Calculator, color: "bg-green-100 dark:bg-green-900", iconColor: "text-green-600" },
-  { id: 3, icon: Monitor, color: "bg-purple-100 dark:bg-purple-900", iconColor: "text-purple-600" },
-  { id: 4, icon: FileText, color: "bg-orange-100 dark:bg-orange-900", iconColor: "text-orange-600" },
+  { id: 2, icon: BookOpen, color: "bg-green-100 dark:bg-green-900", iconColor: "text-green-600" },
+  { id: 3, icon: BookOpen, color: "bg-purple-100 dark:bg-purple-900", iconColor: "text-purple-600" },
+  { id: 4, icon: BookOpen, color: "bg-orange-100 dark:bg-orange-900", iconColor: "text-orange-600" },
 ];
 
 export default function DashboardPage() {

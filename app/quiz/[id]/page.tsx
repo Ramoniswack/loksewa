@@ -15,7 +15,7 @@ export default function QuizPage() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<number[]>([]);
-  const [timeLeft, setTimeLeft] = useState(600); // 10 minutes
+  const [timeLeft, setTimeLeft] = useState(5400); // 90 minutes
   const [loading, setLoading] = useState(true);
   const [firebaseUser, setFirebaseUser] = useState<any>(null);
   const [authChecked, setAuthChecked] = useState(false);
@@ -196,48 +196,62 @@ export default function QuizPage() {
           </div>
         </div>
 
-        {/* Navigation */}
-        <div className="flex justify-between items-center">
-          <button
-            onClick={() => setCurrentQuestion(Math.max(0, currentQuestion - 1))}
-            disabled={currentQuestion === 0}
-            className="btn-secondary disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            ← {t("previous")}
-          </button>
-
-          <div className="flex gap-2">
-            {questions.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentQuestion(index)}
-                className={`w-8 h-8 rounded ${
-                  index === currentQuestion
-                    ? "bg-primary-600 text-white"
-                    : selectedAnswers[index] !== -1
-                    ? "bg-green-500 text-white"
-                    : "bg-gray-300 dark:bg-gray-600 text-gray-700 dark:text-gray-300"
-                }`}
-              >
-                {index + 1}
-              </button>
-            ))}
+        {/* Navigation Footer */}
+        <div className="card bg-white dark:bg-gray-800 sticky bottom-0 left-0 right-0 z-10">
+          {/* Question Counter */}
+          <div className="mb-4 text-center">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              {t("question")} <span className="font-bold text-primary-600">{currentQuestion + 1}</span> {t("of")} <span className="font-bold text-primary-600">{questions.length}</span>
+            </p>
           </div>
 
-          {currentQuestion === questions.length - 1 ? (
-            <button onClick={handleSubmit} className="btn-primary">
-              {t("submit")}
-            </button>
-          ) : (
+          {/* Question Navigation Buttons */}
+          <div className="mb-4 overflow-x-auto">
+            <div className="flex gap-2 pb-2">
+              {questions.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => setCurrentQuestion(index)}
+                  className={`min-w-8 w-8 h-8 rounded flex items-center justify-center text-sm font-semibold transition ${
+                    index === currentQuestion
+                      ? "bg-primary-600 text-white"
+                      : selectedAnswers[index] !== -1
+                      ? "bg-green-500 text-white"
+                      : "bg-gray-300 dark:bg-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-400 dark:hover:bg-gray-500"
+                  }`}
+                  title={`Question ${index + 1}`}
+                >
+                  {index + 1}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Action Buttons */}
+          <div className="flex justify-between gap-4">
             <button
-              onClick={() =>
-                setCurrentQuestion(Math.min(questions.length - 1, currentQuestion + 1))
-              }
-              className="btn-primary"
+              onClick={() => setCurrentQuestion(Math.max(0, currentQuestion - 1))}
+              disabled={currentQuestion === 0}
+              className="btn-secondary disabled:opacity-50 disabled:cursor-not-allowed flex-1"
             >
-              {t("next")} →
+              ← {t("previous")}
             </button>
-          )}
+
+            {currentQuestion === questions.length - 1 ? (
+              <button onClick={handleSubmit} className="btn-primary flex-1 bg-green-600 hover:bg-green-700">
+                {t("submit")}
+              </button>
+            ) : (
+              <button
+                onClick={() =>
+                  setCurrentQuestion(Math.min(questions.length - 1, currentQuestion + 1))
+                }
+                className="btn-primary flex-1"
+              >
+                {t("next")} →
+              </button>
+            )}
+          </div>
         </div>
       </main>
     </div>
